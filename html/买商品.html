@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张帆买商品</title>
+    <link rel="stylesheet" href="../css/买商品.css">
+</head>
+<body>
+    <div id="top">
+        <ul>
+            <li>送货至：四川</li>
+        </ul>
+        <ul>
+            <li>你好！请<a href="../html/注册页面.html">登录</a></li>
+            <li><a href="../html/登录页面.html">免费登录</a></li>
+            <li class="xian"></li>
+            <li><a href="">我的订单</a></li>
+            <li class="xian"></li>
+            <li><a href="">收藏夹</a></li>
+            <li id="xuanfu"><a href="" >客户服务&nbsp;&nbsp;&nbsp;<img src="../images/t_arrow.gif" alt=""></a></li>
+            <li><a href="">网站导航</a></li>
+            <li class="xian"></li>
+            <li>关注我们：</li>
+            <li><img src="../images/sh_3.gif" alt="">&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sh2.png" alt=""></li>
+            <li class="xian"></li>
+            <li>手机版<span id="shouji"><img src="../images/s_tel.png" alt=""></span></li>
+        </ul>
+    </div>
+    <div id="kehufuwu">
+        <ul>
+            <li> <a href="">包裹跟踪</a></li>
+            <li><a href="">常见问题</a></li>
+            <li><a href="">在线退款</a></li>
+            <li><a href="">在线投诉</a></li>
+            <li><a href="">配送范围</a></li>
+        </ul>
+    </div>
+    <!-- -------2----------------------------------------- -->
+    <!-- 2、logo&搜索框 -->
+    <div id="logo">
+        <div id="logoyi"><img src="../images/loginlogo.jpg" alt=""></div>
+        <div id="sousuo">
+            <input type="text" name="" id="sousuokuang"  placeholder="请输入关键字"><div id="sousuoyi">搜索</div>
+            <ul>
+                <li><a href="">咖啡</a> </li>
+                <li><a href="">iphone 6S</a> </li>
+                <li><a href="">新鲜美食</a> </li>
+                <li><a href="">蛋糕</a> </li>
+                <li><a href="">日用品</a> </li>
+                <li><a href="">连衣裙</a> </li>
+            </ul>
+        </div>
+        <div id="shop">
+            <img src="../images/car.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;购物车
+        </div>
+        <div id="shopcar" class="le">
+            <ul id="shopcarulyi">
+                <li>1号店满199减100</li>
+            </ul>
+            <ul id="shopcaruler">
+                <li>共1件商品</li>
+            </ul>
+            <div id="shopcaryi">
+                <div id="shopcaryia">
+                    <img src="../images/shop1.png" alt="">
+                </div>
+                <div id="shopcaryib">
+                    <p>宝贝许愿坊 童装女装套装</p><span id="spanchahao"><img src="../images/a_close.png" ></span>
+                    <p>深蓝  140码</p>
+                    <button id="jianyi" onclick="jianyia()">-</button><span id="spanyi">1</span><button id="jiayi" onclick="jiayia()">+</button><span id="qianyi">￥</span> <span id="span190">190</span>
+                </div>
+            </div>
+
+            <!-- --------------------------------------------------- -->
+            <div id="shopcarer" class="le">
+                <div id="shopcarera">
+                    <ul>
+                        <li>1号店满199减100</li>
+                    </ul>
+                    <ul>
+                        <li>共1件商品</li>
+                    </ul>
+                </div>
+                <div id="shopcarerb">
+                    <img src="../images/shop2.png" alt="">
+                </div>
+                <div id="shopcarerber">
+                    <p>亨氏 乐维子青了2+2果汁</p><span id="spanchahaob"><img src="../images/a_close.png" ></span>
+                    <p>深蓝  140码</p>
+                    <button id="jianyib" onclick="jianyib()">-</button><span id="spanyib">1</span><button id="jiayib" onclick="jiayib()">+</button><span id="qianer">￥</span><span id="span58">5.8</span>
+                </div>
+            </div>
+            <!-- ------------------------------------ -->
+            <div id="shopcarsan" class="le">
+                <div id="shopcarsana">
+                    <ul>
+                        <li>1号店满199减100</li>
+                    </ul>
+                    <ul>
+                        <li>共1件商品</li>
+                    </ul>
+                </div>
+                <div id="shopcarsanb">
+                    <img src="../images/shop3.png" alt="">
+                </div>
+                <div id="shopcarsanber">
+                    <p>珍珠首饰 9.5-10.5</p><span id="spanchahaoc"><img src="../images/a_close.png" ></span>
+                    <p>淡水白色警员珍珠</p>
+                    <button id="jianyic" onclick="jianyic()">-</button><span id="spanyic">1</span><button id="jiayic" onclick="jiayic()">+</button><span id="qiansan">￥</span><span id="span777">777</span>
+                </div>
+            </div>
+            <p id="baoyou">全场包邮</p>
+            <p id="yijian">意见反馈</p>
+            <div id="shopcarsia">合计：￥<span id="spanyid">972.8</span></div>
+            <div id="shopcarsib">立即结算</div>
+        </div>
+    </div>
+    <!-- --------------------------------------- -->
+    <div id="san">
+        <ul>
+            <li> <a href="../html/张帆.html">首页</a> </li>
+            <li><a href="../html/产品分类页.html">自营超市</a> </li>
+            <li><a href="">1号团</a> </li>
+            <li><a href="">1号超市</a> </li>
+            <li><a href="">女装</a> </li>
+            <li><a href="">美妆</a> </li>
+            <li><a href="">1号海购</a> </li>
+            <li><a href="">团购</a> </li>
+        </ul>
+        <ul>
+            <li><img src="../images/nav9.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手机下单惊喜多多！</li>
+        </ul>
+    </div>
+    <div id="shangpin">
+        全部商品分类
+    </div>
+    <div id="quanbu">全部>珠宝饰品>珍珠项链><span id="spanpinpai">品牌：<span id="spanzhenzhu">珍珠首饰</span></span></div>
+    <!-- ------------------首饰------------------------------------------ -->
+    <div id="shoushi">
+        <div id="shoushiyi">
+            <div id="shoushiyia">
+                <img src="../images/p_big.jpg" alt="">
+            </div>
+            <div id="shoushiyib">
+                <span id="shoushiyibyi"><img src="../images/ps2.jpg" alt=""></span>
+                <span id="shoushiyiber"><img src="../images/ps3.jpg" alt=""></span>
+                <span id="shoushiyibsan"><img src="../images/ps4.jpg" alt=""></span>
+                <span id="shoushiyibsi"><img src="../images/ps2.jpg" alt=""></span>
+                <div id="shoushiyiba"><img src="../images/r_left.png" alt=""></div>
+                <div id="shoushiyibb"><img src="../images/r_right.png" alt=""></div>
+            </div>
+        </div>
+        <!-- ------------------------------------------------------ -->
+        <div id="shoushier">
+            <p>珠韵首饰 冰韵 天然白色正圆S925银扣珍珠项链</p>
+            <p>全国包邮 送妈妈，正圆级淡水珍珠，白色S925银链扣，使用方便，尊贵礼物。</p>
+            <p>本店价: <span>¥1786</span> </p>
+            <p>参考价： <span>¥3886</span> </p>
+            <div id="shoushiera">
+                尺码：
+                <button class="btnyi">43cm</button>
+                <button >45cm</button>
+                <button >50cm</button>
+            </div>
+            <div id="shoushierb">
+                颜色选择：
+                <button class="btner">粉色</button>
+                <button>白色</button>
+            </div>
+            <div id="shoushierc">
+                <div id="shoushiercyi">
+                    <span id="spanshoushiercyi"></span>分享<span id="spanshoushiercer"></span>关注商品
+                    <div id="shoushiercyidiv">
+                        <img src="../images/sh1.png" alt="">
+                        <img src="../images/sh2.png" alt="">
+                        <img src="../images/sh_1.gif" alt="">
+                        <img src="../images/sh_2.gif" alt="">
+                        <img src="../images/sh_3.gif" alt="">
+                        <img src="../images/sh_4.gif" alt="">
+                        <img src="../images/sh_5.gif" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- ---------------------------------- -->
+            <div id="shoushierd">
+                <span id="shoushierdyi">1</span>
+                <button id="shoushierdyia">+</button>
+                <button id="shoushierdyib">-</button>
+                <span id="shoushierder"><img src="../images/j_car.png" alt=""></span>
+            </div>
+        </div>
+        <!-- --------------------------------- -->
+        <div id="shoushisan">
+            <img src="../images/sbrand.jpg" alt="">
+            进入品牌专区
+        </div>
+    </div>
+    <!-- ---------------------------------------------- -->
+     <!-- ---------------浏览历史-------------------------- -->
+     <div id="lishi">
+        <div id="lishiyi">
+            <span id="lishiyia"></span><span id="lishiyib">浏览历史</span><span id="lishiyic">清空</span>
+        </div>
+        <div id="lishier">
+            <img src="../images/his_1.jpg" alt="">
+            <p><a href="">Dior/迪奥香水2件套装</a></p>
+            <p><a href="">￥368.00</a></p>
+        </div>
+        <div id="lishisan">
+            <img src="../images/his_2.jpg" alt="">
+            <p><a href="">Dior/迪奥香水2件套装</a></p>
+            <p><a href="">￥368.00</a></p>
+        </div>
+        <div id="lishisi">
+            <img src="../images/his_3.jpg" alt="">
+            <p><a href="">Dior/迪奥香水2件套装</a></p>
+            <p><a href="">￥368.00</a></p>
+        </div>
+        <div id="lishiwu">
+            <img src="../images/his_4.jpg" alt="">
+            <p><a href="">Dior/迪奥香水2件套装</a></p>
+            <p><a href="">￥368.00</a></p>
+        </div>
+        <div id="lishiliu">
+            <img src="../images/his_5.jpg" alt="">
+            <p><a href="">Dior/迪奥香水2件套装</a></p>
+            <p><a href="">￥368.00</a></p>
+        </div>
+    </div>
+    <!-- --------------------推荐搭配-------------------------------------------- -->
+    <div id="tuijian">
+        <div id="tuijianyi">
+            <div id="tuijianyia">推荐搭配</div>
+            <div id="tuijianyib"></div>
+        </div>
+        <div id="tuijianer">
+            <img src="../images/mat_1.jpg" alt="">
+            <p><a href="">粤通国际珠宝 999足金</a> </p>
+            <input type="checkbox"  id="tuijianercheck" ><span id="span76">￥76</span>
+        </div>
+        <div id="tuijiansan">
+            <img src="../images/jia_b.gif" alt="">
+        </div>
+        <div id="tuijiansi">
+            <img src="../images/mat_2.jpg" alt="">
+            <p><a href="">粤通国际珠宝 999足金</a> </p>
+            <input type="checkbox"  id="tuijiansicheck"><span id="span1666">￥1666</span>
+        </div>
+        <div id="tuijianwu">
+            <img src="../images/jia_b.gif" alt="">
+        </div>
+        <div id="tuijianliu">
+            <img src="../images/mat_3.jpg" alt="">
+            <p><a href="">粤通国际珠宝 999足金</a> </p>
+            <input type="checkbox"  id="tuijianliucheck"><span id="span1999">￥1999</span>
+        </div>
+        <div id="tuijianqi">
+            <img src="../images/equl.gif" alt="">
+        </div>
+        <div id="tuijianba">
+            <p>套餐价：￥<span id="tuijianbaspan">0</span></p>
+            <input type="text" id="tuijianbainput" value="1">
+            <br>
+            <button id="tuijianbabtn">组合购买</button>
+        </div>
+    </div>
+    <!-- -----------------------商品属性----------------------------------------- -->
+    <div id="shuxing">
+        <div id="shuxingyi">
+            <div id="shuxingyia">商品属性</div>
+            <div id="shuxingyib">商品详情</div>
+            <div id="shuxingyic">商品评论</div>
+        </div>
+        <div id="shuxinger">
+            <div id="shuxingera">
+                <ul>
+                    <li>商品名称：天然淡水珍珠</li>
+                    <li>商品毛重：160.00g</li>
+                    <li>镶嵌材质：纯银</li>
+                </ul>
+            </div>
+            <div id="shuxingerb">
+                <ul>
+                    <li>商品编号：1546211</li>
+                    <li>商品产地：法国</li>
+                    <li>款式：项链</li>
+                </ul>
+            </div>
+            <div id="shuxingerc">
+                <ul>
+                    <li>品牌： 珠韵首饰</li>
+                    <li>珍珠形状：正圆</li>
+                </ul>
+            </div>
+            <div id="shuxingerd">
+                <ul>
+                    <li>上架时间：2015-09-06 09:19:09</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------商品详情-------------------------------------------- -->
+    <div id="xiangqing">
+        <div id="xiangqingyi">
+            商品详情
+        </div>
+        <div id="xiangqinger">
+            <img src="../images/de2.jpg" alt="">
+        </div>
+        <div id="xiangqingsan">
+            <img src="../images/de3.jpg" alt="">
+        </div>
+        <div id="xiangqingsi">
+            <img src="../images/de4.jpg" alt="">
+        </div>
+        <div id="xiangqingwu">
+            <img src="../images/de5.jpg" alt="">
+        </div>
+        <div id="xiangqingliu">
+            <img src="../images/de6.jpg" alt="">
+        </div>
+        <div id="xiangqingqi">
+            <img src="../images/de7.jpg" alt="">
+        </div>
+        <div id="xiangqingba">
+            <img src="../images/de8.jpg" alt="">
+        </div>
+    </div>
+    <!-- -------------------商品评论----------------------------- -->
+    <div id="pinglun">
+        <div id="pinglunyi">
+            商品评论
+        </div>
+        <div id="pingluner">
+            <div id="pinglunera">
+                <p>80.0%</p>
+                <p>好评度</p>
+            </div>
+            <div id="pinglunerb">
+                <p>好评(80%) <span id="spanpingluna"></span><span id="spanpinglunb"></span></p>
+                <p>中评(20%) <span id="spanpinglunc"></span><span id="spanpinglund"></span></p>
+                <p>差评(0%) <span id="spanpinglune"></span><span id="spanpinglunf"></span></p>
+            </div>
+            <div id="pinglunerc">
+                购买过珠韵首饰 天然银扣珍珠项链的顾客，在收到商品才可以对该商品发表评论
+            </div>
+            <div id="pinglunerd">
+                您可对已购买商品进行评价
+            </div>
+            <!-- -------发表评论------------------- -->
+            <div id="pinglunbbs">
+                <div class="bbs">
+                    <header><span onclick="post()">我要评论</span></header>
+                    <section>
+                        <ul id="postList">
+                            <li>
+                                <div><img src="../images/peo1.jpg"></div>
+                                <h1>垃圾商家</h1>
+                                <p>
+                                    <span>商品：珍珠项链</span>
+                                    <span>发表时间：2022-5-15 11:29</span>
+                                </p>
+                            </li>
+                        </ul>
+                    </section>
+                    <div class="post" id="post">
+                        <input class="title" placeholder="请输入标题（1-50个字符）" id="title">
+                        所属类型：<select id="sec">
+                            <option>请选择商品分类</option>
+                            <option>珍珠首饰</option>
+                            <option>零食水果</option>
+                            <option>衣服鞋子</option>
+                            <option>手提包包</option>
+                        </select>
+                        <textarea class="content" id="content"></textarea>
+                        <input type='button' class="btn" value="发布" onclick="postSuccess()">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div id="pinglunsan">
+            <div id="pinglunsana">
+                <img src="../images/peo1.jpg" alt="">向死而生
+            </div>
+            <div id="pinglunsanb">
+                <ul>
+                   <li>颜色分类： <span>粉色</span> </li>
+                   <li>型号： <span> 43cm</span></li> 
+                </ul>
+            </div>
+            <div id="pinglunsanc">
+                <ul>
+                    <li>产品很好，香味很喜欢，必须给赞。</li>
+                    <li>2015-09-24</li>
+                </ul>
+            </div>
+        </div>
+        <!-- --------------------------------- -->
+        <div id="pinglunsi">
+            <div id="pinglunsia">
+                <img src="../images/peo2.jpg" alt="">就是这么想的
+            </div>
+            <div id="pinglunsib">
+                <ul>
+                   <li>颜色分类： <span>粉色</span> </li>
+                   <li>型号： <span> 43cm</span></li> 
+                </ul>
+            </div>
+            <div id="pinglunsic">
+                <ul>
+                    <li>送朋友，她很喜欢，大爱。</li>
+                    <li>2015-09-24</li>
+                </ul>
+            </div>
+        </div>
+        <!-- --------------------------------------- -->
+        <div id="pinglunwu">
+            <div id="pinglunwua">
+                <img src="../images/peo2.jpg" alt="">墨镜墨镜
+            </div>
+            <div id="pinglunwub">
+                <ul>
+                   <li>颜色分类： <span>粉色</span> </li>
+                   <li>型号： <span> 43cm</span></li> 
+                </ul>
+            </div>
+            <div id="pinglunwuc">
+                <ul>
+                    <li>下次还会来买，推荐。</li>
+                    <li>2015-09-24</li>
+                </ul>
+            </div>
+        </div>
+        <!-- -------------------------------- -->
+        <div id="fenye">
+            <span id="fenyea">上一页</span>
+            <span id="fenyeb">1</span>
+            <span id="fenyec">2</span>
+            <span id="fenyed">3</span>
+            <span id="fenyee">...</span>
+            <span id="fenyef">20</span>
+            <span id="fenyeg">下一页</span>
+        </div>
+
+    </div>
+    <!-- ------------------------------------- -->
+        <!-- -----------底部---------------------- -->
+        <div id="footyi">
+            <div id="footyia"><img src="../images/b1.png" alt=""></div>
+            <p>正品保障</p>
+            <p>正品星火  放心购买</p>
+        </div>
+        <div id="footer">
+            <div id="footera"><img src="../images/b2.png" alt=""></div>
+            <p>满38包邮</p>
+            <p>满38包邮 免运费  </p>
+        </div>
+        <div id="footsan">
+            <div id="footsana"><img src="../images/b3.png" alt=""></div>
+            <p>满38包邮</p>
+            <p>满38包邮 免运费  </p>
+        </div>
+        <div id="footsi">
+            <div id="footsia"><img src="../images/b4.png" alt=""></div>
+            <p>满38包邮</p>
+            <p>满38包邮 免运费  </p>
+        </div>
+        <!-- --------------------------------------------- -->
+        <div id="footwu">
+            <ul id="footwua">
+                <li><a href="">新手上路</a></li>
+                <li><a href="">售后流程</a></li>
+                <li><a href="">购物流程</a></li>
+                <li><a href="">订购方式</a></li>
+                <li><a href="">隐私声明</a></li>
+                <li><a href="">推荐分享说明</a></li>
+            </ul>
+            <ul id="footwub">
+                <li><a href="">配送与支付</a></li>
+                <li><a href="">货到付款区域</a></li>
+                <li><a href="">配送支付查询</a></li>
+                <li><a href="">支付方式说明</a></li>
+            </ul>
+            <ul id="footwuc">
+                <li><a href="">会员中心</a></li>
+                <li><a href="">资金管理</a></li>
+                <li><a href="">我的收藏</a></li>
+                <li><a href="">我的订单</a></li>
+            </ul>
+            <ul id="footwud">
+                <li><a href="">服务保证</a></li>
+                <li><a href="">退换货原则</a></li>
+                <li><a href="">售后服务保证</a></li>
+                <li><a href="">产品质量保证</a></li>
+            </ul>
+            <ul id="footwue">
+                <li><a href="">联系我们</a></li>
+                <li><a href="">网站故障报告</a></li>
+                <li><a href="">购物咨询</a></li>
+                <li><a href="">投诉与建议</a></li>
+            </ul>
+            <!-- --------------------------- -->
+            <div id="footwuf">
+                <div id="footwufyi">
+                    <img src="../images/er.gif" alt="">
+                    <p>扫一扫关注我们</p>
+                </div>
+                <div id="footwufer">
+                    <p><span id="footwufera"><img src="../images/b_sh_1.png" alt=""></span>新浪微博
+                    </p>
+                    <br>
+                    <p>
+                    <span id="footwuferb"><img src="../images/b_sh_2.png" alt=""></span>腾讯微博
+                    </p>
+                    <p>服务热线：</p>
+                    <p>400-123-4567</p>
+                </div>
+            </div>
+        </div>
+        <!-- ----------------------------- -->
+        <p id="footliu">备案/许可证编号：蜀ICP备12009302号-1-www.dingguagua.com Copyright© 1号店网上超市 2007-2016，All Rights Reserved. 复制必究 , Technical Support: Dgg Group</p>
+        <p id="footqi">
+            <img src="../images/b_1.gif" alt="">
+            <img src="../images/b_2.gif" alt="">
+            <img src="../images/b_3.gif" alt="">
+            <img src="../images/b_4.gif" alt="">
+            <img src="../images/b_5.gif" alt="">
+            <img src="../images/b_6.gif" alt="">
+        </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+<script src="../js/买商品.js"></script>
+
+
+<script>
+    var post_=document.getElementById('post');
+    function post(){       
+        post_.style.display='block';
+    }
+    function postSuccess(){ 
+        var ava_arr = new Array('peo1.jpg', 'peo2.jpg', 'peo3.jpg', 'peo4.jpg');
+        var img_div = document.createElement('div');
+        var img_ava = document.createElement('img');
+        var img_index = Math.floor(Math.random() * 4);
+        console.log(img_index);
+        img_ava.setAttribute('src', '../images/' + ava_arr[img_index]);
+
+        img_div.appendChild(img_ava);
+        
+
+
+        var li_=document.createElement('li');
+        var postList_=document.getElementById('postList');
+        postList_.insertBefore(li_,postList_.firstElementChild);
+        var title_=document.getElementById('title').value;
+        console.log(title_);
+        var h11=document.createElement('h1');
+        h11.innerHTML=title_;
+
+        var date = new Date();
+        var nowDate = date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate() + ' ' + date.getHours() + ':' + date.getMinutes();
+
+
+        var sec_=document.getElementById('sec').value;
+        console.log(sec_);
+        var p1=document.createElement('p');
+        var span1=document.createElement('span');
+        span1.innerHTML='类型：'+ sec_;
+        p1.appendChild(span1);
+        var span2=document.createElement('span');
+        span2.innerHTML='发表时间'+nowDate;
+        p1.appendChild(span2);
+        li_.appendChild(img_div);
+        li_.appendChild(h11);
+        li_.appendChild(p1);
+
+        document.getElementById('title').value='';
+        document.getElementById('content').value='';
+        post_.style.display='none';
+    }
+
+</script>

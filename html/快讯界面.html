@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/快讯界面.css">
+</head>
+<body>
+    <div id="top">
+        <ul>
+            <li>送货至：四川</li>
+        </ul>
+        <ul>
+            <li>你好！请<a href="../html/注册页面.html">登录</a></li>
+            <li><a href="">免费登录</a></li>
+            <li class="xian"></li>
+            <li><a href="">我的订单</a></li>
+            <li class="xian"></li>
+            <li><a href="">收藏夹</a></li>
+            <li id="xuanfu"><a href="" >客户服务&nbsp;&nbsp;&nbsp;<img src="../images/t_arrow.gif" alt=""></a></li>
+            <li><a href="">网站导航</a></li>
+            <li class="xian"></li>
+            <li>关注我们：</li>
+            <li><img src="../images/sh_3.gif" alt="">&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sh2.png" alt=""></li>
+            <li class="xian"></li>
+            <li>手机版<span id="shouji"><img src="../images/s_tel.png" alt=""></span></li>
+        </ul>
+    </div>
+    <div id="kehufuwu">
+        <ul>
+            <li> <a href="">包裹跟踪</a></li>
+            <li><a href="">常见问题</a></li>
+            <li><a href="">在线退款</a></li>
+            <li><a href="">在线投诉</a></li>
+            <li><a href="">配送范围</a></li>
+        </ul>
+    </div>
+    <div id="logo">
+        <div id="logoyi"><img src="../images/loginlogo.jpg" alt=""></div>
+        <div id="sousuo">
+            <input type="text" name="" id="sousuokuang"  placeholder="请输入关键字"><div id="sousuoyi">搜索</div>
+            <ul>
+                <li><a href="">咖啡</a> </li>
+                <li><a href="">iphone 6S</a> </li>
+                <li><a href="">新鲜美食</a> </li>
+                <li><a href="">蛋糕</a> </li>
+                <li><a href="">日用品</a> </li>
+                <li><a href="">连衣裙</a> </li>
+            </ul>
+        </div>
+        <!-- -------------------------------------------------- -->
+        <div id="shop">
+            <img src="../images/car.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;购物车
+        </div>
+        <!-- --------------------------购物车------------------------------ -->
+        <div id="shopcar" class="le">
+            <ul id="shopcarulyi">
+                <li>1号店满199减100</li>
+            </ul>
+            <ul id="shopcaruler">
+                <li>共1件商品</li>
+            </ul>
+            <div id="shopcaryi">
+                <div id="shopcaryia">
+                    <img src="../images/shop1.png" alt="">
+                </div>
+                <div id="shopcaryib">
+                    <p>宝贝许愿坊 童装女装套装</p><span id="spanchahao"><img src="../images/a_close.png" ></span>
+                    <p>深蓝  140码</p>
+                    <button id="jianyi" onclick="jianyia()">-</button><span id="spanyi">1</span><button id="jiayi" onclick="jiayia()">+</button><span id="qianyi">￥</span> <span id="span190">190</span>
+                </div>
+            </div>
+
+            <!-- --------------------------------------------------- -->
+            <div id="shopcarer" class="le">
+                <div id="shopcarera">
+                    <ul>
+                        <li>1号店满199减100</li>
+                    </ul>
+                    <ul>
+                        <li>共1件商品</li>
+                    </ul>
+                </div>
+                <div id="shopcarerb">
+                    <img src="../images/shop2.png" alt="">
+                </div>
+                <div id="shopcarerber">
+                    <p>亨氏 乐维子青了2+2果汁</p><span id="spanchahaob"><img src="../images/a_close.png" ></span>
+                    <p>深蓝  140码</p>
+                    <button id="jianyib" onclick="jianyib()">-</button><span id="spanyib">1</span><button id="jiayib" onclick="jiayib()">+</button><span id="qianer">￥</span><span id="span58">5.8</span>
+                </div>
+            </div>
+            <!-- ------------------------------------ -->
+            <div id="shopcarsan" class="le">
+                <div id="shopcarsana">
+                    <ul>
+                        <li>1号店满199减100</li>
+                    </ul>
+                    <ul>
+                        <li>共1件商品</li>
+                    </ul>
+                </div>
+                <div id="shopcarsanb">
+                    <img src="../images/shop3.png" alt="">
+                </div>
+                <div id="shopcarsanber">
+                    <p>珍珠首饰 9.5-10.5</p><span id="spanchahaoc"><img src="../images/a_close.png" ></span>
+                    <p>淡水白色警员珍珠</p>
+                    <button id="jianyic" onclick="jianyic()">-</button><span id="spanyic">1</span><button id="jiayic" onclick="jiayic()">+</button><span id="qiansan">￥</span><span id="span777">777</span>
+                </div>
+            </div>
+            <p id="baoyou">全场包邮</p>
+            <p id="yijian">意见反馈</p>
+            <div id="shopcarsia">合计：￥<span id="spanyid">972.8</span></div>
+            <div id="shopcarsib">立即结算</div>
+        </div>
+    </div>
+    <!-- ---------------------------------------------- -->
+    <div id="buy">
+        <span id="buyspana">
+             <a href="../html/张帆.html"  id="buyspanaa">首页</a> 
+        </span>
+        <span id="buyspanb">
+            <a href="../html/买商品.html" id="buyspanbb">品牌热卖</a>
+        </span>
+        <span id="buyspanc">
+            <a href="../html/产品分类页.html"  id="buyspancc">限时闪购</a>
+        </span>
+    </div>
+    <!-- ---------------------------------------- -->
+     <!-- --------------------------抢购-------------------------------- -->
+     <div id="qiang">
+        <span id="qianga">
+            10:00场
+            <br>
+            已开始
+        </span>
+        <span id="qiangb">
+            15:00场<br>
+            已开始
+        </span>
+        <span id="qiangc">
+            19:00场<br>
+            已开始
+        </span>
+        <span id="qiangd">
+            22:00场<br>
+            疯抢中
+        </span>
+        <span id="qiange">
+            00:00场<br>
+            疯抢中
+        </span>
+        <span id="qiangf">
+           10:00场<br>
+            疯抢中
+        </span>
+        <span id="qiangg">
+            15:00场<br>
+            未开始
+        </span>
+        <span id="qiangh">
+            19:00场<br>
+            未开始
+        </span>
+        <span id="qiangi">
+            22:00场<br>
+            未开始
+        </span>
+    </div>
+   <!-- ------------------------快讯界面-------------------------------------- -->
+    <div id="kuaixunul">
+        <ul id="uls">
+            <li style="margin-top: 0px;">【特惠】1111111111111111111111111</li>
+            <li style="margin-top: 0px;">【抢购】2222222222222222</li>
+            <li style="margin-top: 0px;">【秒杀】33333333</li>
+            <li style="margin-top: 0px;">【甩卖】4444444444444444</li>
+            <li style="margin-top: 0px;">【公告】5555555555555555555555555</li>
+        </ul>
+    </div>
+   <!-- ----------------------抢购商品---------------------------- -->
+    <div id="shoping">
+        <div id="shoptop">
+            <div id="shoptopa">
+                <strong>限时抢购</strong> &nbsp;&nbsp;&nbsp;&nbsp;每日五场，高返单品，剁手秒杀
+            </div>
+            <div id="shoptopb">
+                距离本场结束还有
+                <span id="shoptopba">00</span>
+                : 
+                <span id="shoptopbb">05</span>
+                : 
+                <span id="shoptopbc">10</span>
+                :
+                <span id="shoptopbd">60</span>
+            </div>
+        </div>
+        <!-- -------------------------------------------------------- -->
+        <div id="shopfoot">
+            <div id="shopfoota">
+                <div id="shopfootaa">
+                    <img src="../images/shoptop1.jpg" alt="">
+                </div>
+                <div id="shopfootab">
+                    <p>花儿朵朵新女士文胸小胸纯棉无钢圈简约性感上托聚拢无痕睡眠胸罩</p>
+                    <p>￥100 <span>120</span></p>
+                    <p>再返33.13</p>
+                    <p><span>已抢0件</span><span><a href="../html/买商品.html"> 马上抢</a></span></p>
+                </div>
+            </div>
+            <div id="shopfootb">
+                <div id="shopfootba">
+                    <img src="../images/shoptop2.jpg" alt="">
+                </div>
+                <div id="shopfootbb">
+                    <p>花儿朵朵新女士文胸小胸纯棉无钢圈简约性感上托聚拢无痕睡眠胸罩</p>
+                    <p>￥100 <span>120</span></p>
+                    <p>再返33.13</p>
+                    <p><span>已抢0件</span><span><a href="../html/买商品.html"> 马上抢</a></span></p>
+                </div>
+            </div>
+        </div>
+        <!-- ------------------------shopfooter------------------------------------ -->
+        <div id="shopfooter">
+           <div id="shopfootera">
+               <img src="../images/shoptop3.jpg" alt="">
+           </div>
+           <div id="shopfooterb">
+               <p><a href="">绿茶2022新茶明前龙井43号浓香型豆蔻香松阳高山茶叶散装多规格</a></p>
+               <p><span>￥999</span><span>1999</span></p> 
+               <p>再返900 <button id="btn999jian">-</button> <span id="spannum999">1</span><button id="btn999jia">+</button>￥<span id="span999">999</span></p> 
+               <p>
+                   <span id="spanwai"><span id="spanli"></span>已抢999件</span> 
+                   <span><a href="../html/买商品.html">马上抢</a> </span>
+                </p>          
+            </div>
+        </div>
+        <!-- -------------------------------------------------- -->
+        <div id="shopfootsan">
+            <div id="shopfootsana">
+                <img src="../images/shoptop4.jpg" alt="">
+            </div>
+            <div id="shopfootsanb">
+                <p><a href="">泡脚中药包艾草艾叶草泡脚包去濕气助睡眠足浴粉泡脚药材女士专用</a></p>
+                <p><span>￥88</span><span>888</span></p> 
+                <p>再返80 <button id="btn88jian">-</button> <span id="spannum88">1</span><button id="btn88jia">+</button>￥<span id="span88">88</span></p> 
+                <p>
+                    <span id="spanwai88"><span id="spanli88"></span>已抢999999件</span> 
+                    <span><a href="../html/买商品.html">马上抢</a> </span>
+                 </p>            
+             </div>
+         </div>
+    </div>
+    <!-- ----------------------固定定位-------------------------------- -->
+    <div id="guding">
+        <ul>
+            <li><img src="../images/b1.png" alt=""></li>
+            <li> <a href="">我的勋章</a> </li>
+            <li><img src="../images/b2.png" alt=""></li>
+            <li> <a href="">我的快递</a> </li>
+            <li><img src="../images/b3.png" alt=""></li>
+            <li> <a href="">我的SALE</a> </li>
+            <li><img src="../images/b4.png" alt=""></li>
+            <li> <a href="">送达时间</a> </li>
+        </ul>
+    </div>
+    <div id="gudinger">
+        <img src="../images/fanli.jpg" alt="">
+    </div>
+    <div id="gudingsan">
+        <div id="gudingsana">
+            <img src="../images/fanli_.jpg" alt="">
+        </div>
+        <p id="gudingsanb">返利说明</p>
+        <p id="gudingsanc">重要提示：使用红包、购物券下单，将无法获得返利！</p>
+        <p id="gudingsand">以下情况均可返利：</p>
+        <ul>
+            <li>1、在一淘下单、或将宝贝加入购物车或收藏夹后再下单的都有返利</li>
+            <li>2、使用天猫积分、集分宝支付的部分依然有返利</li>
+            <li>3、使用店铺优惠券、店铺红包的订单，按实际支付金额返利~</li>
+            <li>4、预售商品确认收货后，会展示全额返利金额~</li>
+        </ul>
+        <p id="gudingsane">无法返利的情况：</p>
+        <ul>
+            <li>1.航旅部分商品无返利，以实际展现为准哦</li>
+            <li>2.部分类型的红包、天猫/淘宝购物券，使用后可能导致订单不返利</li>
+            <li>3.通过一淘虚假、恶意购买等将无法获得返利，详细 <a href="../html/你瞅啥.html">点击</a> 这里查看：</li>
+            <li>4.天猫企业购订单无返利</li>
+        </ul>
+        <button id="gudingbtn">我知道了</button>
+        <div id="gudingcha">
+            <img src="../images/a_close.png" alt="">
+        </div>
+    </div>
+    <!-- -------------------------- -->
+
+</body>
+</html>
+
+<script src="../js/快讯界面.js"></script>

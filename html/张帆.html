@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张帆一号店</title>
+    <link rel="stylesheet" href="../css/css.css">
+    <link rel="stylesheet" href="../swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- 1、导航栏 -->
+    <div id="top">
+        <ul>
+            <li>送货至：四川</li>
+        </ul>
+        <ul>
+            <li>你好！请<a href="../html/注册页面.html">登录</a></li>
+            <li><a href="">免费登录</a></li>
+            <li class="xian"></li>
+            <li><a href="">我的订单</a></li>
+            <li class="xian"></li>
+            <li><a href="">收藏夹</a></li>
+            <li id="xuanfu"><a href="" >客户服务&nbsp;&nbsp;&nbsp;<img src="../images/t_arrow.gif" alt=""></a></li>
+            <li><a href="">网站导航</a></li>
+            <li class="xian"></li>
+            <li>关注我们：</li>
+            <li><img src="../images/sh_3.gif" alt="">&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sh2.png" alt=""></li>
+            <li class="xian"></li>
+            <li>手机版<span id="shouji"><img src="../images/s_tel.png" alt=""></span></li>
+        </ul>
+    </div>
+    <div id="kehufuwu">
+        <ul>
+            <li> <a href="">包裹跟踪</a></li>
+            <li><a href="">常见问题</a></li>
+            <li><a href="">在线退款</a></li>
+            <li><a href="">在线投诉</a></li>
+            <li><a href="">配送范围</a></li>
+        </ul>
+    </div>
+    <!-- 2、logo&搜索框 -->
+    <div id="logo">
+        <div id="logoyi"><img src="../images/loginlogo.jpg" alt=""></div>
+        <div id="sousuo">
+            <input type="text" name="" id="sousuokuang"  placeholder="请输入关键字"><div id="sousuoyi">搜索</div>
+            <ul>
+                <li><a href="">咖啡</a> </li>
+                <li><a href="">iphone 6S</a> </li>
+                <li><a href="">新鲜美食</a> </li>
+                <li><a href="">蛋糕</a> </li>
+                <li><a href="">日用品</a> </li>
+                <li><a href="">连衣裙</a> </li>
+            </ul>
+        </div>
+        <!-- -------------------------------------------------- -->
+        <div id="shop">
+            <img src="../images/car.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;购物车
+        </div>
+        <!-- --------------------------购物车------------------------------ -->
+        <div id="shopcar" class="le">
+            <ul id="shopcarulyi">
+                <li>1号店满199减100</li>
+            </ul>
+            <ul id="shopcaruler">
+                <li>共1件商品</li>
+            </ul>
+            <div id="shopcaryi">
+                <div id="shopcaryia">
+                    <img src="../images/shop1.png" alt="">
+                </div>
+                <div id="shopcaryib">
+                    <p>宝贝许愿坊 童装女装套装</p><span id="spanchahao"><img src="../images/a_close.png" ></span>
+                    <p>深蓝  140码</p>
+                    <button id="jianyi" onclick="jianyia()">-</button><span id="spanyi">1</span><button id="jiayi" onclick="jiayia()">+</button><span id="qianyi">￥</span> <span id="span190">190</span>
+                </div>
+            </div>
+
+            <!-- --------------------------------------------------- -->
+            <div id="shopcarer" class="le">
+                <div id="shopcarera">
+                    <ul>
+                        <li>1号店满199减100</li>
+                    </ul>
+                    <ul>
+                        <li>共1件商品</li>
+                    </ul>
+                </div>
+                <div id="shopcarerb">
+                    <img src="../images/shop2.png" alt="">
+                </div>
+                <div id="shopcarerber">
+                    <p>亨氏 乐维子青了2+2果汁</p><span id="spanchahaob"><img src="../images/a_close.png" ></span>
+                    <p>深蓝  140码</p>
+                    <button id="jianyib" onclick="jianyib()">-</button><span id="spanyib">1</span><button id="jiayib" onclick="jiayib()">+</button><span id="qianer">￥</span><span id="span58">5.8</span>
+                </div>
+            </div>
+            <!-- ------------------------------------ -->
+            <div id="shopcarsan" class="le">
+                <div id="shopcarsana">
+                    <ul>
+                        <li>1号店满199减100</li>
+                    </ul>
+                    <ul>
+                        <li>共1件商品</li>
+                    </ul>
+                </div>
+                <div id="shopcarsanb">
+                    <img src="../images/shop3.png" alt="">
+                </div>
+                <div id="shopcarsanber">
+                    <p>珍珠首饰 9.5-10.5</p><span id="spanchahaoc"><img src="../images/a_close.png" ></span>
+                    <p>淡水白色警员珍珠</p>
+                    <button id="jianyic" onclick="jianyic()">-</button><span id="spanyic">1</span><button id="jiayic" onclick="jiayic()">+</button><span id="qiansan">￥</span><span id="span777">777</span>
+                </div>
+            </div>
+            <p id="baoyou">全场包邮</p>
+            <p id="yijian">意见反馈</p>
+            <div id="shopcarsia">合计：￥<span id="spanyid">972.8</span></div>
+            <div id="shopcarsib">立即结算</div>
+        </div>
+    </div>
+    <!-- 3、商品分类&轮播图 -->
+    <div id="san">
+        <ul>
+            <li> <a href="../html/买商品.html">首页</a> </li>
+            <li><a href="../html/产品分类页.html">自营超市</a> </li>
+            <li><a href="">1号团</a> </li>
+            <li><a href="">1号超市</a> </li>
+            <li><a href="">女装</a> </li>
+            <li><a href="">美妆</a> </li>
+            <li><a href="">1号海购</a> </li>
+            <li><a href="">团购</a> </li>
+        </ul>
+        <ul>
+            <li><img src="../images/nav9.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手机下单惊喜多多！</li>
+        </ul>
+    </div>
+    <!-- 4、轮播图------------------------------------ -->
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="../images/ban1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../images/ban1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../images/ban1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../images/ban1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../images/ban1.jpg" alt=""></div>
+        </div>  
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiperyi-scrollbar"></div>
+    </div>
+    <!-- ------------------------ -->
+    <div id="shangpin">
+        <div id="shangpinyi">全部商品分类</div>
+        <div id="shangpiner">
+            <ul>
+                <li id="fooda"><span><img src="../images/nav1.png" alt=""></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;进口食品、生鲜</li>
+                <li id="foodb"><span><img src="../images/nav2.png" alt=""></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;食品、饮料、酒</li>
+                <li ><span><img src="../images/nav3.png" alt=""></span>&nbsp;&nbsp;&nbsp;&nbsp;母婴、玩具、童装</li>
+                <li><span><img src="../images/nav4.png" alt=""></span>&nbsp;&nbsp;&nbsp;家居、家庭清洁、纸品</li>
+                <li><span><img src="../images/nav5.png" alt=""></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;美妆、个人护理、洗护</li>
+                <li><span><img src="../images/nav6.png" alt=""></span>&nbsp;&nbsp;&nbsp;&nbsp;女装、内衣</li>
+                <li><span><img src="../images/nav7.png" alt=""></span>&nbsp;&nbsp;&nbsp;&nbsp;鞋子、箱包</li>
+                <li><span><img src="../images/nav8.png" alt=""></span>&nbsp;&nbsp;&nbsp;&nbsp;男装、运动</li>
+                <li><span><img src="../images/nav9.png" alt=""></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手机、小家电</li>
+                <li><span><img src="../images/nav10.png" alt=""></span>&nbsp;&nbsp;&nbsp;&nbsp;礼品、充值</li>
+            </ul>
+        </div>
+    </div>
+    <!-- ---------快讯-------------------------------- -->
+    <div id="kuaixun">
+        <div id="kuaixunyi">
+            快讯<span id="kuaixunspan"><a href="../html/快讯界面.html">更多></a> </span>
+        </div>
+        <!-- -------竖向轮播图--------------------- -->
+        <div class="swiperyi">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <ul>
+                        <li>【特惠】<a href="">据一轮明月 表无尽思念</a></li>
+                        <li>【公告】<a href="">好奇急转成长新品上市</a></li>
+                        <li>【抢购】<a href="">派遣爱抢购</a></li>
+                        <li>【甩卖】<a href="">发福利 买车就抢千元油卡</a></li>
+                        <li>【秒杀】<a href="">家电低至五折</a></li>
+                    </ul>
+                </div>
+               
+            </div>
+            
+        </div>
+        <!-- ------------------------------ -->
+        <div id="kuaixuner">
+            <p>1号钱包</p>
+        </div>
+        <div id="kuaixunsan">
+            <p>收益日结 ， 收益赚High!</p>
+            <div id="kuaixunsanyi">
+                <img src="../images/oneAD.jpg" alt="">
+            </div>
+            
+        </div>
+    </div>
+    <!-- ----------进口食品生鲜------------------- -->
+    <div id="liyi">
+        <div id="liyia">
+            <p><a href="">零食/糖果/巧克力</a> </p>
+            <ul id="liyiaul">
+               <li><a href="">糖果</a> </li>
+               <li class="liyiaulli"></li>
+               <li><a href="">牛肉干</a> </li>
+               <li class="liyiaulli"></li>
+               <li><a href="">饼干</a> </li>
+               <li class="liyiaulli"></li>
+               <li><a href="">牛奶</a> </li>
+               <li class="liyiaulli"></li>
+               <li><a href="">巧克力</a> </li>
+               <li class="liyiaulli"></li>
+               <li><a href="">糖果</a> </li>
+               <li class="liyiaulli"></li>
+               <li><a href="">牛肉干</a> </li>
+               <li class="liyiaulli"></li>
+               <li><a href="">饼干</a> </li>
+               <li class="liyiaulli"></li>
+               <li><a href="">牛奶</a> </li>
+               <li class="liyiaulli"></li>
+               <li><a href="">巧克力</a> </li>
+               <li class="liyiaulli"></li>
+               <li><a href="">糖果</a> </li>
+            </ul>
+        </div>
+        <!-- ------------------------------- -->
+        <div id="liyib">
+            <p><a href="">零食/糖果/巧克力</a> </p>
+            <ul id="liyibul">
+               <li><a href="">糖果</a> </li>
+               <li class="liyibulli"></li>
+               <li><a href="">牛肉干</a> </li>
+               <li class="liyibulli"></li>
+               <li><a href="">饼干</a> </li>
+               <li class="liyibulli"></li>
+               <li><a href="">牛奶</a> </li>
+               <li class="liyibulli"></li>
+               <li><a href="">巧克力</a> </li>
+               <li class="liyibulli"></li>
+               <li><a href="">糖果</a> </li>
+               <li class="liyibulli"></li>
+               <li><a href="">牛肉干</a> </li>
+               <li class="liyibulli"></li>
+               <li><a href="">饼干</a> </li>
+               <li class="liyibulli"></li>
+               <li><a href="">牛奶</a> </li>
+               <li class="liyibulli"></li>
+               <li><a href="">巧克力</a> </li>
+               <li class="liyibulli"></li>
+               <li><a href="">糖果</a> </li>
+            </ul>
+        </div>
+        <!-- -------------------------------------- -->
+        <div id="liyic">
+            <p><a href="">零食/糖果/巧克力</a> </p>
+            <ul id="liyicul">
+                <li><a href="">糖果</a> </li>
+               <li class="liyiculli"></li>
+               <li><a href="">牛肉干</a> </li>
+               <li class="liyiculli"></li>
+               <li><a href="">饼干</a> </li>
+               <li class="liyiculli"></li>
+               <li><a href="">牛奶</a> </li>
+               <li class="liyiculli"></li>
+               <li><a href="">巧克力</a> </li>
+               <li class="liyiculli"></li>
+               <li><a href="">糖果</a> </li>
+               <li class="liyiculli"></li>
+               <li><a href="">牛肉干</a> </li>
+               <li class="liyiculli"></li>
+               <li><a href="">饼干</a> </li>
+               <li class="liyiculli"></li>
+               <li><a href="">牛奶</a> </li>
+               <li class="liyiculli"></li>
+               <li><a href="">巧克力</a> </li>
+               <li class="liyiculli"></li>
+               <li><a href="">糖果</a> </li>
+            </ul>
+        </div>
+        <!-- ------------------------------- -->
+        <div id="liyid">
+            <p><a href="">零食/糖果/巧克力</a> </p>
+            <ul id="liyidul">
+                <li><a href="">糖果</a> </li>
+               <li class="liyidulli"></li>
+               <li><a href="">牛肉干</a> </li>
+               <li class="liyidulli"></li>
+               <li><a href="">饼干</a> </li>
+               <li class="liyidulli"></li>
+               <li><a href="">牛奶</a> </li>
+               <li class="liyidulli"></li>
+               <li><a href="">巧克力</a> </li>
+               <li class="liyidulli"></li>
+               <li><a href="">糖果</a> </li>
+               <li class="liyidulli"></li>
+               <li><a href="">牛肉干</a> </li>
+               <li class="liyidulli"></li>
+               <li><a href="">饼干</a> </li>
+               <li class="liyidulli"></li>
+               <li><a href="">牛奶</a> </li>
+               <li class="liyidulli"></li>
+               <li><a href="">巧克力</a> </li>
+               <li class="liyidulli"></li>
+               <li><a href="">糖果</a> </li>
+            </ul>
+        </div>
+        <!-- ---------------------------------------------- -->
+        <div id="liyie">
+            
+        </div>
+        <div id="liyif">
+            
+        </div>
+    </div>
+    <!-- ------------------------------------------------------------------ -->
+    <div id="lier">
+        <div id="liera">
+            <p><a href="">零食/糖果/巧克力</a> </p>
+            <ul id="lieraul">
+               <li><a href="">糖果</a> </li>
+               <li class="lieraulli"></li>
+               <li><a href="">牛肉干</a> </li>
+               <li class="lieraulli"></li>
+               <li><a href="">饼干</a> </li>
+               <li class="lieraulli"></li>
+               <li><a href="">牛奶</a> </li>
+               <li class="lieraulli"></li>
+               <li><a href="">巧克力</a> </li>
+               <li class="lieraulli"></li>
+               <li><a href="">糖果</a> </li>
+               <li class="lieraulli"></li>
+               <li><a href="">牛肉干</a> </li>
+
+            </ul>
+        </div>
+        <div id="liyie">  
+        </div>
+        <div id="liyif">  
+        </div>
+    </div>
+    <!-- ----------------------------------------------- -->
+    <div id="remen">
+        <div id="remena"><img src="../images/l_img.jpg" alt=""><span>￥53.00</span>&nbsp;&nbsp;&nbsp;&nbsp;16R</div>
+        <div id="remenb">
+            <div id="remenbyi"><img src="../images/hot1.jpg" alt="">
+                <p><a href="">德国进口</a> </p>
+                <p><a href="">德亚牛奶200ml*48盒</a> </p>
+                <span>￥189</span>26R
+            </div>
+            <div id="remenber">
+                <img src="../images/hot2.jpg" alt="">
+                <p><a href="">iphone   6S</a> </p>
+                <p><a href="">Apple/苹果 iPhone 6s Plus公开版</a> </p>
+                <span>￥5288</span>25R
+            </div>
+            <div id="remenbsan">
+                <img src="../images/hot3.jpg" alt="">
+                <p><a href="">特惠套装</a> </p>
+                <p><a href="">补水组合套装8折促销</a> </p>
+                <span>￥368</span>18R
+            </div>
+            <div id="remenbsi">
+                <img src="../images/hot4.jpg" alt="">
+                <p><a href="">品级特级橄榄油</a> </p>
+                <p><a href="">西班牙原装进口</a> </p>
+                <span>￥280</span>30R
+            </div>
+            <div id="remencyi"><img src="../images/hot.png" alt=""></div>
+            <div id="remencer"><img src="../images/hot.png" alt=""></div>
+            <div id="remencsan"><img src="../images/hot.png" alt=""></div>
+            <div id="remencsi"><img src="../images/hot.png" alt=""></div>
+            <div id="zuojian"><img src="../images/b_left.png" alt=""></div>
+            <div id="youjian"><img src="../images/b_right.png" alt=""></div>
+        </div>   
+    </div>
+    <div id="chuifengji"><img src="../images/mban_2.jpg" alt=""></div>
+    <!-- ----------进口生鲜------------------ -->
+    <div id="jinkoushengxian">
+        <ul id="jinkoushengxianulyi">
+            <li>1F</li>
+            <li>进口<img src="../images/b_h.png" alt="">生鲜</li>
+        </ul>
+        <ul id="jinkoushengxianuler">
+            <li><a href="">进口啤酒</a></li>
+            <li><a href="">进口酒</a></li>
+            <li><a href="">进口母婴</a></li>
+            <li><a href="">新鲜蔬菜</a></li>
+            <li><a href="">新鲜水果</a></li>
+        </ul>
+    </div>
+    <div id="jinkouer">
+        <div id="jinkouera"><img src="../images/fre_r.jpg" alt="">
+        <div><img src="../images/b_left.png" alt=""></div>
+        <div><img src="../images/b_right.png" alt=""></div>
+        <p><a href="">进口水果&nbsp;&nbsp;&nbsp;&nbsp;奇异果&nbsp;&nbsp;&nbsp;西柚</a> </p>
+        <p><a href="">海鲜水产&nbsp;&nbsp;&nbsp;品质牛肉</a> </p>
+        <p><a href="">奶粉&nbsp;&nbsp;&nbsp;&nbsp;现货清单&nbsp;&nbsp;&nbsp;进口酒</a> </p>
+        </div>
+
+    <!-- -------------------------- -->
+        <div id="jinkouerb">
+            <div id="jinkouerbyi">
+                <p><a href="">贝斯克  草莓先生&蓝莓小姐</a></p>
+                <p>￥98.00</p>
+                <img src="../images/fre_1.jpg" alt="">
+            </div>
+            <div id="jinkouerber">
+                <p><a href="">新鲜美食   进口美食</a></p>
+                <p>￥24.00</p>
+                <img src="../images/fre_2.jpg" alt="">
+            </div>
+        </div>
+        <!-- ------------------------ -->
+        <div id="jinkouerc">
+            <div id="jinkouercyi">
+                <p><a href="">贝斯克  草莓先生&蓝莓小姐</a></p>
+                <p>￥98.00</p>
+                <img src="../images/fre_3.jpg" alt="">
+            </div>
+            <div id="jinkouercer">
+                <p><a href="">新鲜美食   进口美食</a></p>
+                <p>￥24.00</p>
+                <img src="../images/fre_4.jpg" alt="">
+            </div>
+        </div>
+        <!-- ------------------------------- -->
+        <div id="jinkouerd">
+            <div id="jinkouerdyi">
+                <p><a href="">贝斯克  草莓先生&蓝莓小姐</a></p>
+                <p>￥98.00</p>
+                <img src="../images/fre_3.jpg" alt="">
+            </div>
+            <div id="jinkouerder">
+                <p><a href="">新鲜美食   进口美食</a></p>
+                <p>￥24.00</p>
+                <img src="../images/fre_4.jpg" alt="">
+            </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div id="jinkouere">
+            <div id="jinkouereyi"><img src="../images/fre_b1.jpg" alt=""></div>
+            <div id="jinkouereer"><img src="../images/fre_b2.jpg" alt=""></div>
+        </div>
+    </div>
+    <!-- ----------个人美妆--------------------- -->
+    <div id="meizhuang">
+        <ul id="meizhuangulyi">
+            <li>2F</li>
+            <li>进口<img src="../images/b_h.png" alt="">生鲜</li>
+        </ul>
+        <ul id="meizhuanguler">
+            <li><a href="">进口啤酒</a></li>
+            <li><a href="">进口酒</a></li>
+            <li><a href="">进口母婴</a></li>
+            <li><a href="">新鲜蔬菜</a></li>
+            <li><a href="">新鲜水果</a></li>
+        </ul>
+    </div>
+    <div id="meier">
+        <div id="meiera"><img src="../images/fre_r.jpg" alt="">
+        <div><img src="../images/b_left.png" alt=""></div>
+        <div><img src="../images/b_right.png" alt=""></div>
+        <p><a href="">进口水果&nbsp;&nbsp;&nbsp;&nbsp;奇异果&nbsp;&nbsp;&nbsp;西柚</a> </p>
+        <p><a href="">海鲜水产&nbsp;&nbsp;&nbsp;品质牛肉</a> </p>
+        <p><a href="">奶粉&nbsp;&nbsp;&nbsp;&nbsp;现货清单&nbsp;&nbsp;&nbsp;进口酒</a> </p>
+        </div>
+
+    <!-- -------------------------- -->
+        <div id="meierb">
+            <div id="meierbyi">
+                <p><a href="">贝斯克  草莓先生&蓝莓小姐</a></p>
+                <p>￥98.00</p>
+                <img src="../images/fre_1.jpg" alt="">
+            </div>
+            <div id="meierber">
+                <p><a href="">新鲜美食   进口美食</a></p>
+                <p>￥24.00</p>
+                <img src="../images/fre_2.jpg" alt="">
+            </div>
+        </div>
+        <!-- ------------------------ -->
+        <div id="meierc">
+            <div id="meiercyi">
+                <p><a href="">贝斯克  草莓先生&蓝莓小姐</a></p>
+                <p>￥98.00</p>
+                <img src="../images/fre_6.jpg" alt="">
+            </div>
+            <div id="meiercer">
+                <p><a href="">新鲜美食   进口美食</a></p>
+                <p>￥24.00</p>
+                <img src="../images/fre_5.jpg" alt="">
+            </div>
+        </div>
+        <!-- ------------------------------- -->
+        <div id="meierd">
+            <div id="meierdyi">
+                <p><a href="">贝斯克  草莓先生&蓝莓小姐</a></p>
+                <p>￥98.00</p>
+                <img src="../images/fre_5.jpg" alt="">
+            </div>
+            <div id="meierder">
+                <p><a href="">新鲜美食   进口美食</a></p>
+                <p>￥24.00</p>
+                <img src="../images/fre_6.jpg" alt="">
+            </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div id="meiere">
+            <div id="meiereyi"><img src="../images/fre_b1.jpg" alt=""></div>
+            <div id="meiereer"><img src="../images/fre_b2.jpg" alt=""></div>
+        </div>
+    </div>
+    <!-- ------------------------ -->
+    <div id="chuifengjier"><img src="../images/mban_2.jpg" alt=""></div>
+
+    <!-- ----------------------------母婴玩具------------------------------------------------- -->
+    <div id="muying">
+        <ul id="muyingulyi">
+            <li>3F</li>
+            <li>进口<img src="../images/b_h.png" alt="">生鲜</li>
+        </ul>
+        <ul id="muyinguler">
+            <li><a href="">进口啤酒</a></li>
+            <li><a href="">进口酒</a></li>
+            <li><a href="">进口母婴</a></li>
+            <li><a href="">新鲜蔬菜</a></li>
+            <li><a href="">新鲜水果</a></li>
+        </ul>
+    </div>
+    <div id="muer">
+        <div id="muera"><img src="../images/baby_r.jpg" alt="">
+        <div><img src="../images/b_left.png" alt=""></div>
+        <div><img src="../images/b_right.png" alt=""></div>
+        <p><a href="">进口水果&nbsp;&nbsp;&nbsp;&nbsp;奇异果&nbsp;&nbsp;&nbsp;西柚</a> </p>
+        <p><a href="">海鲜水产&nbsp;&nbsp;&nbsp;品质牛肉</a> </p>
+        <p><a href="">奶粉&nbsp;&nbsp;&nbsp;&nbsp;现货清单&nbsp;&nbsp;&nbsp;进口酒</a> </p>
+        </div>
+
+    <!-- -------------------------- -->
+        <div id="muerb">
+            <div id="muerbyi">
+                <p><a href="">贝斯克  草莓先生&蓝莓小姐</a></p>
+                <p>￥98.00</p>
+                <img src="../images/baby_6.jpg" alt="">
+            </div>
+            <div id="muerber">
+                <p><a href="">新鲜美食   进口美食</a></p>
+                <p>￥24.00</p>
+                <img src="../images/baby_5.jpg" alt="">
+            </div>
+        </div>
+        <!-- ------------------------ -->
+        <div id="muerc">
+            <div id="muercyi">
+                <p><a href="">贝斯克  草莓先生&蓝莓小姐</a></p>
+                <p>￥98.00</p>
+                <img src="../images/baby_4.jpg" alt="">
+            </div>
+            <div id="muercer">
+                <p><a href="">新鲜美食   进口美食</a></p>
+                <p>￥24.00</p>
+                <img src="../images/baby_3.jpg" alt="">
+            </div>
+        </div>
+        <!-- ------------------------------- -->
+        <div id="muerd">
+            <div id="muerdyi">
+                <p><a href="">贝斯克  草莓先生&蓝莓小姐</a></p>
+                <p>￥98.00</p>
+                <img src="../images/baby_1.jpg" alt="">
+            </div>
+            <div id="muerder">
+                <p><a href="">新鲜美食   进口美食</a></p>
+                <p>￥24.00</p>
+                <img src="../images/baby_2.jpg" alt="">
+            </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div id="muere">
+            <div id="muereyi"><img src="../images/baby_b1.jpg" alt=""></div>
+            <div id="muereer"><img src="../images/baby_b2.jpg" alt=""></div>
+        </div>
+    </div>
+    <!-- -----------底部---------------------- -->
+    <div id="footyi">
+        <div id="footyia"><img src="../images/b1.png" alt=""></div>
+        <p>正品保障</p>
+        <p>正品星火  放心购买</p>
+    </div>
+    <div id="footer">
+        <div id="footera"><img src="../images/b2.png" alt=""></div>
+        <p>满38包邮</p>
+        <p>满38包邮 免运费  </p>
+    </div>
+    <div id="footsan">
+        <div id="footsana"><img src="../images/b3.png" alt=""></div>
+        <p>满38包邮</p>
+        <p>满38包邮 免运费  </p>
+    </div>
+    <div id="footsi">
+        <div id="footsia"><img src="../images/b4.png" alt=""></div>
+        <p>满38包邮</p>
+        <p>满38包邮 免运费  </p>
+    </div>
+    <!-- --------------------------------------------- -->
+    <div id="footwu">
+        <ul id="footwua">
+            <li><a href="">新手上路</a></li>
+            <li><a href="">售后流程</a></li>
+            <li><a href="">购物流程</a></li>
+            <li><a href="">订购方式</a></li>
+            <li><a href="">隐私声明</a></li>
+            <li><a href="">推荐分享说明</a></li>
+        </ul>
+        <ul id="footwub">
+            <li><a href="">配送与支付</a></li>
+            <li><a href="">货到付款区域</a></li>
+            <li><a href="">配送支付查询</a></li>
+            <li><a href="">支付方式说明</a></li>
+        </ul>
+        <ul id="footwuc">
+            <li><a href="">会员中心</a></li>
+            <li><a href="">资金管理</a></li>
+            <li><a href="">我的收藏</a></li>
+            <li><a href="">我的订单</a></li>
+        </ul>
+        <ul id="footwud">
+            <li><a href="">服务保证</a></li>
+            <li><a href="">退换货原则</a></li>
+            <li><a href="">售后服务保证</a></li>
+            <li><a href="">产品质量保证</a></li>
+        </ul>
+        <ul id="footwue">
+            <li><a href="">联系我们</a></li>
+            <li><a href="">网站故障报告</a></li>
+            <li><a href="">购物咨询</a></li>
+            <li><a href="">投诉与建议</a></li>
+        </ul>
+        <!-- --------------------------- -->
+        <div id="footwuf">
+            <div id="footwufyi">
+                <img src="../images/er.gif" alt="">
+                <p>扫一扫关注我们</p>
+            </div>
+            <div id="footwufer">
+                <p><span id="footwufera"><img src="../images/b_sh_1.png" alt=""></span>新浪微博
+                </p>
+                <br>
+                <p>
+                <span id="footwuferb"><img src="../images/b_sh_2.png" alt=""></span>腾讯微博
+                </p>
+                <p>服务热线：</p>
+                <p>400-123-4567</p>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------- -->
+    <p id="footliu">备案/许可证编号：蜀ICP备12009302号-1-www.dingguagua.com Copyright© 1号店网上超市 2007-2016，All Rights Reserved. 复制必究 , Technical Support: Dgg Group</p>
+    <p id="footqi">
+        <img src="../images/b_1.gif" alt="">
+        <img src="../images/b_2.gif" alt="">
+        <img src="../images/b_3.gif" alt="">
+        <img src="../images/b_4.gif" alt="">
+        <img src="../images/b_5.gif" alt="">
+        <img src="../images/b_6.gif" alt="">
+    </p>
+</body>
+</html>
+
+
+<script src="../swiper/swiper-bundle.min.js"></script>
+<script src="../js/js.js"></script>
+<script>        
+    var mySwiper = new Swiper ('.swiper', {
+      direction: 'horizontal', // 切换选项
+      loop: true, // 循环模式选项
+      autoplay: {
+        delay: 3000,
+        stopOnLastSlide: false,
+        disableOnInteraction: true,
+    },
+      // 如果需要分页器
+      pagination: {
+        el: '.swiper-pagination',
+        clickable :true,
+      },
+      
+      // 如果需要前进后退按钮
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      
+      // 如果需要滚动条
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+    })        
+
+
+
+</script>
+

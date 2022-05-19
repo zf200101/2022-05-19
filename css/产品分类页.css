@@ -1,0 +1,2231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+#top{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-image: linear-gradient(#d1d1d1,#f5f5f5);
+}
+#top>ul:nth-of-type(1){
+    width: 100px;
+    height: 40px;
+    float: left;
+    font-size: 12px;
+    color: #3b3a3a;
+    margin-left: 50px;
+
+}
+#top>ul:nth-of-type(2){
+    width:700px;
+    height: 40px;
+    float: right;
+    color: #363535;
+    font-size: 12px;
+    /* border: 1px solid black; */
+}
+#top>ul:nth-of-type(2)>li{
+    width: 73px;
+    height: 40px;
+    /* border: 1px solid black; */
+    text-align: center;
+    float: left;
+}
+#top>ul:nth-of-type(2)>li:nth-of-type(2)>a{
+    color: red;
+}
+#top>ul:nth-of-type(2) a:hover{
+    color: red;
+}
+#top>ul:nth-of-type(2)>.xian{
+    width: 1px;
+    height: 20px;
+    background-color: rgb(117, 115, 115);
+    margin-top: 10px;
+}
+#top a{
+    text-decoration: none;
+}
+#top>ul:nth-of-type(2)>li>a{
+    color: #363535;
+}
+#shouji{
+    margin-left: 9px;
+}
+#kehufuwu{
+    width: 100px;
+    height: 160px;
+    display: none;
+    text-align: center;
+    border: 1px solid rgb(114, 112, 112);
+    position: absolute;
+    top: 40px;
+    right: 325px;
+}
+#kehufuwu li{
+    margin-top: 10px;
+}
+#kehufuwu a{
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+#kehufuwu a:hover{
+    color: red;
+}
+#logo{
+    width: 80%;
+    height: 100px;
+    margin-left: 60px;
+    margin-top: 60px;
+    position: relative;
+    /* border: 1px solid black; */
+}
+#logo>div{
+    float: left;
+}
+#logoyi{
+    width: 184px;
+    height: 70px;
+    /* border: 1px solid black; */
+}
+#sousuokuang{
+    width: 400px;
+    height: 35px;
+    text-indent: 10px;
+    margin-left:200px;
+    margin-top:10px;
+    border: 2px solid red;
+    outline: none;
+}
+#sousuo>ul{
+    width: 400px;
+    height: 20px;
+    margin-left: 200px;
+    margin-top: 5px;
+    /* border: 1px solid black; */
+}
+#sousuoyi{
+    display: inline-block;
+    width: 100px;
+    height: 39px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    transform: translate(0px,2px);
+    background-color: red;
+}
+#sousuo>ul>li{
+    float: left;
+
+    font-size: 12px;
+    margin-left: 10px;
+}
+#sousuo a{
+    text-decoration: none;
+    color: #646262;
+}
+#sousuo a:hover{
+    color: red;
+}
+#shop{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid rgb(139, 137, 137);
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 10px;
+    background-color: #f6f6f6;
+    font-size: 14px;
+    color: #636060;
+}
+#shop:hover{
+    cursor: pointer;
+}
+#shopcar{
+    width: 300px;
+    border: 1px solid rgb(141, 139, 139);
+    border-top: 4px solid red;
+    position: absolute;
+    top: 50px;
+    right: 280px;
+    display: none;
+    background-color: white;
+    z-index: 100;
+}
+#shopcar>ul:nth-of-type(1){
+    width: 150px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#shopcar>ul:nth-of-type(2){
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    float: right;
+    margin-top: 10px;
+}
+#shopcaryi{
+    width: 90%;
+    height: 100px;
+    margin: 0px auto;   
+}
+#shopcaryia{
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+#shopcaryia::after{
+    content: '';;
+    display: block;
+    clear: both;
+}
+#shopcaryib{
+    width: 160px;
+    height: 100px;
+    font-size: 13px;
+    float: left;
+    position: relative;
+}
+#shopcaryib::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#shopcaryib>p:nth-of-type(2){
+    margin: 5px 0px;
+}
+#spanchahao,#spanchahaob,#spanchahaoc{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    right: -10px;
+}
+#jianyi{
+    width: 30px;
+    height: 40px;
+}
+#jiayi{
+    width: 30px;
+    height: 40px;
+}
+#spanyi,#spanyib,#spanyic{
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid rgb(124, 124, 124);
+    width: 30px;
+    height: 40px;
+}
+#span190,#span58,#span777{
+    width: 40px;
+    height: 20px;
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    top: 50px;
+    right: -10px;
+}
+#shopcarer{
+    width: 90%;
+    height: 100px;
+    margin: 0px auto; 
+    margin-top: 30px;
+    font-size: 14px;  
+}
+#shopcarera{
+    width: 100%;
+    height: 20px;
+    font-size: 14px;
+}
+#shopcarera>ul:nth-of-type(1){
+    float: left;
+}
+#shopcarera>ul:nth-of-type(2){
+    font-size: 12px;
+    float: right;
+}
+#shopcarerb{
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+#shopcarsanb>img{
+    width: 90px;
+    height: 90px;
+}
+#shopcarerber{
+    width: 160px;
+    height: 100px;
+    font-size: 13px;
+    float: left;
+    position: relative;
+}
+#jianyib{
+    width: 30px;
+    height: 40px;
+}
+#jiayib{
+    width: 30px;
+    height: 40px;
+}
+#shopcarerber>p:nth-of-type(2){
+    margin: 5px 0px;
+}
+/* ----------------------------- */
+.length{
+    width: 200px;
+    height: 200px;
+    background: url(../images/icon_tips2.png);
+}
+/* ---------------------------- */
+#shopcarsan{
+    width: 90%;
+    height: 100px;
+    margin: 0px auto; 
+    margin-top: 30px;
+    font-size: 14px;  
+}
+#shopcarsana{
+    width: 100%;
+    height: 20px;
+    font-size: 14px;
+}
+#shopcarsana>ul:nth-of-type(1){
+    float: left;
+}
+#shopcarsana>ul:nth-of-type(2){
+    font-size: 12px;
+    float: right;
+}
+#shopcarsanb{
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+#shopcarsanber{
+    width: 160px;
+    height: 100px;
+    font-size: 13px;
+    float: left;
+    position: relative;
+}
+#jianyic{
+    width: 30px;
+    height: 40px;
+}
+#jiayic{
+    width: 30px;
+    height: 40px;
+}
+#shopcarsanber>p:nth-of-type(2){
+    margin: 5px 0px;
+}
+#baoyou{
+    width: 90%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    margin: 0px auto;
+    margin-top: 20px;
+    background-color: #fefaf1;
+}
+#yijian{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: blue;
+    font-size: 13px;
+}
+#shopcarsia{
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgb(190, 187, 187);
+    float: left;
+}
+#shopcarsib{
+    width: 50%;
+    height: 40px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    background-color: red;
+    float: left;
+}
+/* --------------------------------------- */
+#san{
+    width: 1000px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 600px;
+    /* border: 1px solid black; */
+    border-bottom: 2px solid red;
+}
+#san li{
+    float: left;
+    list-style: none;
+}
+#san a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+#san a:hover{
+    color: red;
+}
+#san>ul:nth-of-type(1){
+    float: left;
+}
+#san>ul:nth-of-type(1)>li{
+    margin-left: 20px;
+}
+#san>ul:nth-of-type(1)>li:nth-of-type(1)>a{
+    color: red;
+}
+#san>ul:nth-of-type(1)>li:nth-of-type(2)>a{
+    color: red;
+}
+#san>ul:nth-of-type(2){
+    float: right;
+}
+#san>ul:nth-of-type(2)>li{
+    font-size: 12px;
+}
+
+/* -------------------------------- */
+#shangpin{
+    width: 220px;
+    height: 50px;
+    position: absolute;
+    top: 182px;
+    left: 381px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+#quanbu{
+    width: 1200px;
+    margin-left: 380px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #727070;
+    /* border: 1px solid black; */
+}
+#spanpinpai{
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    font-size: 12px;
+    border: 1px dashed orange;
+}
+#spanzhenzhu{
+    color: orange;
+}
+#quanbuer{
+    width: 1200px;
+    height: 280px;
+    margin-left: 380px;
+    margin-top: 20px;
+    border: 1px solid rgb(163, 159, 159);
+}
+#quanbuera{
+    width: 1200px;
+    height: 70px;
+    text-indent: 10px;
+    border-bottom: 1px solid rgb(158, 155, 155);
+}
+#quanbuera>ul>li{
+    margin-top: 10px;
+    float: left;
+}
+#quanbuera>ul>li:nth-of-type(1)>a{
+    color: orange;
+}
+#quanbuera>ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+#quanbuera>ul>li>a:hover{
+    color: red;
+}
+/* -------------------------------------- */
+#quanbuerb{
+    width: 1200px;
+    height: 70px;
+    text-indent: 10px;
+    border-bottom: 1px solid rgb(158, 155, 155);
+}
+#quanbuerb>ul>li{
+    margin-top: 10px;
+    float: left;
+}
+#quanbuerb>ul>li:nth-of-type(1)>a{
+    color: orange;
+}
+#quanbuerb>ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+#quanbuerb>ul>li>a:hover{
+    color: red;
+}
+/* ----------------------------- */
+#quanbuerc{
+    width: 1200px;
+    height: 70px;
+    text-indent: 10px;
+    border-bottom: 1px solid rgb(158, 155, 155);
+}
+#quanbuerc>ul>li{
+    margin-top: 10px;
+    float: left;
+}
+#quanbuerc>ul>li:nth-of-type(1)>a{
+    color: orange;
+}
+#quanbuerc>ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+#quanbuerc>ul>li>a:hover{
+    color: red;
+}
+/* --------------------------------------- */
+#quanbuerd{
+    width: 1200px;
+    height: 66px;
+    text-indent: 10px;
+}
+#quanbuerd>ul>li{
+    margin-top: 10px;
+    float: left;
+}
+#quanbuerd>ul>li:nth-of-type(1)>a{
+    color: orange;
+}
+#quanbuerd>ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+#quanbuerd>ul>li>a:hover{
+    color: red;
+}
+/* ----------------------浏览历史----------------------------------------- */
+#lishi{
+    width: 220px;
+    height: 1250px;
+    position: absolute;
+    top: 600px;
+    left: 380px;
+    border: 1px solid rgb(151, 149, 149);
+}
+#lishiyi{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid rgb(151, 149, 149);
+}
+#lishiyia{
+    width: 3px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: red;
+}
+#lishiyib{
+    display: inline-block;
+    /* margin-left: 10px; */
+    color: orange;
+    transform: translate(10px,-5px);
+}
+#lishiyic{
+    display: inline-block;
+    font-size: 14px;
+    /* margin-left: 100px; */
+    transform: translate(100px,-5px);
+}
+/* ----------------------------- */
+#lishier{
+    width: 100%;
+    height: 240px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(160, 157, 157);
+}
+#lishier>p>a{
+    text-decoration: none;
+    color: black;
+}
+#lishier>p:nth-of-type(2)>a{
+    color: orange;
+}
+#lishier>p>a:hover{
+    color: red;
+}
+#lishi img:hover{
+    transform: scale(1.2);
+}
+/* ---------------------------------- */
+#lishisan{
+    width: 100%;
+    height: 240px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(160, 157, 157);
+}
+#lishisan>p>a{
+    text-decoration: none;
+    color: black;
+}
+#lishisan>p:nth-of-type(2)>a{
+    color: orange;
+}
+#lishisan>p>a:hover{
+    color: red;
+}
+/* ------------------------------- */
+#lishisi{
+    width: 100%;
+    height: 240px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(160, 157, 157);
+}
+#lishisi>p>a{
+    text-decoration: none;
+    color: black;
+}
+#lishisi>p:nth-of-type(2)>a{
+    color: orange;
+}
+#lishisi>p>a:hover{
+    color: red;
+}
+/* ------------------------------- */
+#lishiwu{
+    width: 100%;
+    height: 240px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(160, 157, 157);
+}
+#lishiwu>p>a{
+    text-decoration: none;
+    color: black;
+}
+#lishiwu>p:nth-of-type(2)>a{
+    color: orange;
+}
+#lishiwu>p>a:hover{
+    color: red;
+}
+/* ------------------------------- */
+#lishiliu{
+    width: 100%;
+    height: 240px;
+    text-align: center;
+    overflow: hidden;
+    /* border-bottom: 1px solid rgb(160, 157, 157); */
+}
+#lishiliu>p>a{
+    text-decoration: none;
+    color: black;
+}
+#lishiliu>p:nth-of-type(2)>a{
+    color: orange;
+}
+#lishiliu>p>a:hover{
+    color: red;
+}
+/* ------------------------------- */
+#moren{
+    width: 950px;
+    height: 40px;
+    margin-left: 600px;
+    margin-top: 35px;
+    /* border: 1px solid black; */
+    border-bottom: 1px solid rgb(185, 184, 184);
+}
+#morene{
+    font-size: 12px;
+    margin-left: 600px;
+}
+#morena{
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 13px;
+    margin-left: 10px;
+    border: 1px solid rgb(184, 180, 180);
+}
+#morena:hover{
+    background-color: orange;
+    color: white;
+}
+#morenb{
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 13px;
+    border: 1px solid rgb(184, 180, 180);
+}
+#morenb:hover{
+    background-color: orange;
+    color: white;
+}
+#morenc{
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background-color: orange;
+    font-size: 13px;
+    border: 1px solid rgb(184, 180, 180);
+}
+#morenc:hover{
+    background-color: orange;
+    color: white;
+}
+#morend{
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 13px;
+    border: 1px solid rgb(184, 180, 180);
+}
+#morend:hover{
+    background-color: orange;
+    color: white;
+}
+/* ---------------------第一排-商品------------------ */
+#diyipai{
+    width: 950px;
+    height: 350px;
+    margin-left: 600px;
+    /* border: 1px solid black; */
+}
+
+#diyipaia{
+    width: 230px;
+    height: 330px;
+    float: left;
+    margin-top: 20px;
+}
+#diyipaia:hover{
+    border: 1px solid rgb(185, 183, 183);
+}
+#diyipaia>p:nth-of-type(1){
+    color: red;
+}
+#diyipaia>p{
+    font-size: 14px;
+    text-align: center;
+}
+#diyipaia>p>a{
+    text-decoration: none;
+    color: black;
+}
+#diyipaia>p>a:hover{
+    color: red;
+}
+#spandiyipaiayi{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    text-indent: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: url(../images/heart.png) no-repeat 10px 10px;
+    border: 1px solid rgb(167, 165, 165);
+}
+#spandiyipaiayi:hover{
+    background: url(../images/heart_h.png) no-repeat 10px 10px;
+}
+#spandiyipaiaer{
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    text-indent: 40px;
+    line-height: 30px;
+    transform: translate(-10px,0px);
+    color: orange;
+    background: url(../images/car.png) no-repeat 13px 7px;
+    border: 1px solid rgb(192, 188, 188);
+    border-left: none;
+}
+#spandiyipaiaer:hover{
+    background: url(../images/cars.png) no-repeat 13px 7px;
+    background-color: orange;
+    /* color: white; */
+}
+/* ------------------------------------------- */
+#diyipaib{
+    width: 230px;
+    height: 330px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#diyipaib:hover{
+    border: 1px solid rgb(185, 183, 183);
+}
+#diyipaib>p:nth-of-type(1){
+    color: red;
+}
+#diyipaib>p{
+    font-size: 14px;
+    text-align: center;
+}
+#diyipaib>p>a{
+    text-decoration: none;
+    color: black;
+}
+#diyipaib>p>a:hover{
+    color: red;
+}
+#spandiyipaibyi{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    text-indent: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: url(../images/heart.png) no-repeat 10px 10px;
+    border: 1px solid rgb(167, 165, 165);
+}
+#spandiyipaibyi:hover{
+    background: url(../images/heart_h.png) no-repeat 10px 10px;
+}
+#spandiyipaiber{
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    text-indent: 40px;
+    line-height: 30px;
+    transform: translate(-10px,0px);
+    color: orange;
+    background: url(../images/car.png) no-repeat 13px 7px;
+    border: 1px solid rgb(192, 188, 188);
+    border-left: none;
+}
+#spandiyipaiber:hover{
+    background: url(../images/cars.png) no-repeat 13px 7px;
+    background-color: orange;
+    /* color: white; */
+}
+/* ----------------------------------------- */
+#diyipaic{
+    width: 230px;
+    height: 330px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#diyipaic:hover{
+    border: 1px solid rgb(185, 183, 183);
+}
+#diyipaic>p:nth-of-type(1){
+    color: red;
+}
+#diyipaic>p{
+    font-size: 14px;
+    text-align: center;
+}
+#diyipaic>p>a{
+    text-decoration: none;
+    color: black;
+}
+#diyipaic>p>a:hover{
+    color: red;
+}
+#spandiyipaicyi{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    text-indent: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: url(../images/heart.png) no-repeat 10px 10px;
+    border: 1px solid rgb(167, 165, 165);
+}
+#spandiyipaicyi:hover{
+    background: url(../images/heart_h.png) no-repeat 10px 10px;
+}
+#spandiyipaicer{
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    text-indent: 40px;
+    line-height: 30px;
+    transform: translate(-10px,0px);
+    color: orange;
+    background: url(../images/car.png) no-repeat 13px 7px;
+    border: 1px solid rgb(192, 188, 188);
+    border-left: none;
+}
+#spandiyipaicer:hover{
+    background: url(../images/cars.png) no-repeat 13px 7px;
+    background-color: orange;
+    /* color: white; */
+}
+/* --------------------------------- */
+#diyipaid{
+    width: 230px;
+    height: 330px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#diyipaid:hover{
+    border: 1px solid rgb(185, 183, 183);
+}
+#diyipaid>p:nth-of-type(1){
+    color: red;
+}
+#diyipaid>p{
+    font-size: 14px;
+    text-align: center;
+}
+#diyipaid>p>a{
+    text-decoration: none;
+    color: black;
+}
+#diyipaid>p>a:hover{
+    color: red;
+}
+#spandiyipaidyi{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    text-indent: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: url(../images/heart.png) no-repeat 10px 10px;
+    border: 1px solid rgb(167, 165, 165);
+}
+#spandiyipaidyi:hover{
+    background: url(../images/heart_h.png) no-repeat 10px 10px;
+}
+#spandiyipaider{
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    text-indent: 40px;
+    line-height: 30px;
+    transform: translate(-10px,0px);
+    color: orange;
+    background: url(../images/car.png) no-repeat 13px 7px;
+    border: 1px solid rgb(192, 188, 188);
+    border-left: none;
+}
+#spandiyipaider:hover{
+    background: url(../images/cars.png) no-repeat 13px 7px;
+    background-color: orange;
+    /* color: white; */
+}
+/* ----------------------------第二排商品--------------------------------------------- */
+#dierpai{
+    width: 950px;
+    height: 350px;
+    margin-left: 600px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+#dierpaia{
+    width: 230px;
+    height: 330px;
+    float: left;
+    margin-top: 20px;
+}
+#dierpaia:hover{
+    border: 1px solid rgb(185, 183, 183);
+}
+#dierpaia>p:nth-of-type(1){
+    color: red;
+}
+#dierpaia>p{
+    font-size: 14px;
+    text-align: center;
+}
+#dierpaia>p>a{
+    text-decoration: none;
+    color: black;
+}
+#dierpaia>p>a:hover{
+    color: red;
+}
+#spandierpaiayi{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    text-indent: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: url(../images/heart.png) no-repeat 10px 10px;
+    border: 1px solid rgb(167, 165, 165);
+}
+#spandierpaiayi:hover{
+    background: url(../images/heart_h.png) no-repeat 10px 10px;
+}
+#spandierpaiaer{
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    text-indent: 40px;
+    line-height: 30px;
+    transform: translate(-10px,0px);
+    color: orange;
+    background: url(../images/car.png) no-repeat 13px 7px;
+    border: 1px solid rgb(192, 188, 188);
+    border-left: none;
+}
+#spandierpaiaer:hover{
+    background: url(../images/cars.png) no-repeat 13px 7px;
+    background-color: orange;
+    /* color: white; */
+}
+/* ------------------------------------------- */
+#dierpaib{
+    width: 230px;
+    height: 330px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#dierpaib:hover{
+    border: 1px solid rgb(185, 183, 183);
+}
+#dierpaib>p:nth-of-type(1){
+    color: red;
+}
+#dierpaib>p{
+    font-size: 14px;
+    text-align: center;
+}
+#dierpaib>p>a{
+    text-decoration: none;
+    color: black;
+}
+#dierpaib>p>a:hover{
+    color: red;
+}
+#spandierpaibyi{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    text-indent: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: url(../images/heart.png) no-repeat 10px 10px;
+    border: 1px solid rgb(167, 165, 165);
+}
+#spandierpaibyi:hover{
+    background: url(../images/heart_h.png) no-repeat 10px 10px;
+}
+#spandierpaiber{
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    text-indent: 40px;
+    line-height: 30px;
+    transform: translate(-10px,0px);
+    color: orange;
+    background: url(../images/car.png) no-repeat 13px 7px;
+    border: 1px solid rgb(192, 188, 188);
+    border-left: none;
+}
+#spandierpaiber:hover{
+    background: url(../images/cars.png) no-repeat 13px 7px;
+    background-color: orange;
+    /* color: white; */
+}
+/* ----------------------------------------- */
+#dierpaic{
+    width: 230px;
+    height: 330px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#dierpaic:hover{
+    border: 1px solid rgb(185, 183, 183);
+}
+#dierpaic>p:nth-of-type(1){
+    color: red;
+}
+#dierpaic>p{
+    font-size: 14px;
+    text-align: center;
+}
+#dierpaic>p>a{
+    text-decoration: none;
+    color: black;
+}
+#dierpaic>p>a:hover{
+    color: red;
+}
+#spandierpaicyi{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    text-indent: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: url(../images/heart.png) no-repeat 10px 10px;
+    border: 1px solid rgb(167, 165, 165);
+}
+#spandierpaicyi:hover{
+    background: url(../images/heart_h.png) no-repeat 10px 10px;
+}
+#spandierpaicer{
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    text-indent: 40px;
+    line-height: 30px;
+    transform: translate(-10px,0px);
+    color: orange;
+    background: url(../images/car.png) no-repeat 13px 7px;
+    border: 1px solid rgb(192, 188, 188);
+    border-left: none;
+}
+#spandierpaicer:hover{
+    background: url(../images/cars.png) no-repeat 13px 7px;
+    background-color: orange;
+    /* color: white; */
+}
+/* --------------------------------- */
+#dierpaid{
+    width: 230px;
+    height: 330px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#dierpaid:hover{
+    border: 1px solid rgb(185, 183, 183);
+}
+#dierpaid>p:nth-of-type(1){
+    color: red;
+}
+#dierpaid>p{
+    font-size: 14px;
+    text-align: center;
+}
+#dierpaid>p>a{
+    text-decoration: none;
+    color: black;
+}
+#dierpaid>p>a:hover{
+    color: red;
+}
+#spandierpaidyi{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    text-indent: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: url(../images/heart.png) no-repeat 10px 10px;
+    border: 1px solid rgb(167, 165, 165);
+}
+#spandierpaidyi:hover{
+    background: url(../images/heart_h.png) no-repeat 10px 10px;
+}
+#spandierpaider{
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    text-indent: 40px;
+    line-height: 30px;
+    transform: translate(-10px,0px);
+    color: orange;
+    background: url(../images/car.png) no-repeat 13px 7px;
+    border: 1px solid rgb(192, 188, 188);
+    border-left: none;
+}
+#spandierpaider:hover{
+    background: url(../images/cars.png) no-repeat 13px 7px;
+    background-color: orange;
+    /* color: white; */
+}
+/* ------------------第三排商品------------------------------------- */
+#dicpai{
+    width: 950px;
+    height: 350px;
+    margin-left: 600px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+#dicpaia{
+    width: 230px;
+    height: 330px;
+    float: left;
+    margin-top: 20px;
+}
+#dicpaia:hover{
+    border: 1px solid rgb(185, 183, 183);
+}
+#dicpaia>p:nth-of-type(1){
+    color: red;
+}
+#dicpaia>p{
+    font-size: 14px;
+    text-align: center;
+}
+#dicpaia>p>a{
+    text-decoration: none;
+    color: black;
+}
+#dicpaia>p>a:hover{
+    color: red;
+}
+#spandicpaiayi{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    text-indent: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: url(../images/heart.png) no-repeat 10px 10px;
+    border: 1px solid rgb(167, 165, 165);
+}
+#spandicpaiayi:hover{
+    background: url(../images/heart_h.png) no-repeat 10px 10px;
+}
+#spandicpaiaer{
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    text-indent: 40px;
+    line-height: 30px;
+    transform: translate(-10px,0px);
+    color: orange;
+    background: url(../images/car.png) no-repeat 13px 7px;
+    border: 1px solid rgb(192, 188, 188);
+    border-left: none;
+}
+#spandicpaiaer:hover{
+    background: url(../images/cars.png) no-repeat 13px 7px;
+    background-color: orange;
+    /* color: white; */
+}
+/* ------------------------------------------- */
+#dicpaib{
+    width: 230px;
+    height: 330px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#dicpaib:hover{
+    border: 1px solid rgb(185, 183, 183);
+}
+#dicpaib>p:nth-of-type(1){
+    color: red;
+}
+#dicpaib>p{
+    font-size: 14px;
+    text-align: center;
+}
+#dicpaib>p>a{
+    text-decoration: none;
+    color: black;
+}
+#dicpaib>p>a:hover{
+    color: red;
+}
+#spandicpaibyi{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    text-indent: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: url(../images/heart.png) no-repeat 10px 10px;
+    border: 1px solid rgb(167, 165, 165);
+}
+#spandicpaibyi:hover{
+    background: url(../images/heart_h.png) no-repeat 10px 10px;
+}
+#spandicpaiber{
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    text-indent: 40px;
+    line-height: 30px;
+    transform: translate(-10px,0px);
+    color: orange;
+    background: url(../images/car.png) no-repeat 13px 7px;
+    border: 1px solid rgb(192, 188, 188);
+    border-left: none;
+}
+#spandicpaiber:hover{
+    background: url(../images/cars.png) no-repeat 13px 7px;
+    background-color: orange;
+    /* color: white; */
+}
+/* ----------------------------------------- */
+#dicpaic{
+    width: 230px;
+    height: 330px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#dicpaic:hover{
+    border: 1px solid rgb(185, 183, 183);
+}
+#dicpaic>p:nth-of-type(1){
+    color: red;
+}
+#dicpaic>p{
+    font-size: 14px;
+    text-align: center;
+}
+#dicpaic>p>a{
+    text-decoration: none;
+    color: black;
+}
+#dicpaic>p>a:hover{
+    color: red;
+}
+#spandicpaicyi{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    text-indent: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: url(../images/heart.png) no-repeat 10px 10px;
+    border: 1px solid rgb(167, 165, 165);
+}
+#spandicpaicyi:hover{
+    background: url(../images/heart_h.png) no-repeat 10px 10px;
+}
+#spandicpaicer{
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    text-indent: 40px;
+    line-height: 30px;
+    transform: translate(-10px,0px);
+    color: orange;
+    background: url(../images/car.png) no-repeat 13px 7px;
+    border: 1px solid rgb(192, 188, 188);
+    border-left: none;
+}
+#spandicpaicer:hover{
+    background: url(../images/cars.png) no-repeat 13px 7px;
+    background-color: orange;
+    /* color: white; */
+}
+/* --------------------------------- */
+#dicpaid{
+    width: 230px;
+    height: 330px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#dicpaid:hover{
+    border: 1px solid rgb(185, 183, 183);
+}
+#dicpaid>p:nth-of-type(1){
+    color: red;
+}
+#dicpaid>p{
+    font-size: 14px;
+    text-align: center;
+}
+#dicpaid>p>a{
+    text-decoration: none;
+    color: black;
+}
+#dicpaid>p>a:hover{
+    color: red;
+}
+#spandicpaidyi{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    text-indent: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: url(../images/heart.png) no-repeat 10px 10px;
+    border: 1px solid rgb(167, 165, 165);
+}
+#spandicpaidyi:hover{
+    background: url(../images/heart_h.png) no-repeat 10px 10px;
+}
+#spandicpaider{
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    text-indent: 40px;
+    line-height: 30px;
+    transform: translate(-10px,0px);
+    color: orange;
+    background: url(../images/car.png) no-repeat 13px 7px;
+    border: 1px solid rgb(192, 188, 188);
+    border-left: none;
+}
+#spandicpaider:hover{
+    background: url(../images/cars.png) no-repeat 13px 7px;
+    background-color: orange;
+    /* color: white; */
+}
+/* -------------------第四排商品---------------------------------------- */
+#dicipai{
+    width: 950px;
+    height: 350px;
+    margin-left: 600px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+#dicipaia{
+    width: 230px;
+    height: 330px;
+    float: left;
+    margin-top: 20px;
+}
+#dicipaia:hover{
+    border: 1px solid rgb(185, 183, 183);
+}
+#dicipaia>p:nth-of-type(1){
+    color: red;
+}
+#dicipaia>p{
+    font-size: 14px;
+    text-align: center;
+}
+#dicipaia>p>a{
+    text-decoration: none;
+    color: black;
+}
+#dicipaia>p>a:hover{
+    color: red;
+}
+#spandicipaiayi{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    text-indent: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: url(../images/heart.png) no-repeat 10px 10px;
+    border: 1px solid rgb(167, 165, 165);
+}
+#spandicipaiayi:hover{
+    background: url(../images/heart_h.png) no-repeat 10px 10px;
+}
+#spandicipaiaer{
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    text-indent: 40px;
+    line-height: 30px;
+    transform: translate(-10px,0px);
+    color: orange;
+    background: url(../images/car.png) no-repeat 13px 7px;
+    border: 1px solid rgb(192, 188, 188);
+    border-left: none;
+}
+#spandicipaiaer:hover{
+    background: url(../images/cars.png) no-repeat 13px 7px;
+    background-color: orange;
+    /* color: white; */
+}
+/* ------------------------------------------- */
+#dicipaib{
+    width: 230px;
+    height: 330px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#dicipaib:hover{
+    border: 1px solid rgb(185, 183, 183);
+}
+#dicipaib>p:nth-of-type(1){
+    color: red;
+}
+#dicipaib>p{
+    font-size: 14px;
+    text-align: center;
+}
+#dicipaib>p>a{
+    text-decoration: none;
+    color: black;
+}
+#dicipaib>p>a:hover{
+    color: red;
+}
+#spandicipaibyi{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    text-indent: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: url(../images/heart.png) no-repeat 10px 10px;
+    border: 1px solid rgb(167, 165, 165);
+}
+#spandicipaibyi:hover{
+    background: url(../images/heart_h.png) no-repeat 10px 10px;
+}
+#spandicipaiber{
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    text-indent: 40px;
+    line-height: 30px;
+    transform: translate(-10px,0px);
+    color: orange;
+    background: url(../images/car.png) no-repeat 13px 7px;
+    border: 1px solid rgb(192, 188, 188);
+    border-left: none;
+}
+#spandicipaiber:hover{
+    background: url(../images/cars.png) no-repeat 13px 7px;
+    background-color: orange;
+    /* color: white; */
+}
+/* ----------------------------------------- */
+#dicipaic{
+    width: 230px;
+    height: 330px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#dicipaic:hover{
+    border: 1px solid rgb(185, 183, 183);
+}
+#dicipaic>p:nth-of-type(1){
+    color: red;
+}
+#dicipaic>p{
+    font-size: 14px;
+    text-align: center;
+}
+#dicipaic>p>a{
+    text-decoration: none;
+    color: black;
+}
+#dicipaic>p>a:hover{
+    color: red;
+}
+#spandicipaicyi{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    text-indent: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: url(../images/heart.png) no-repeat 10px 10px;
+    border: 1px solid rgb(167, 165, 165);
+}
+#spandicipaicyi:hover{
+    background: url(../images/heart_h.png) no-repeat 10px 10px;
+}
+#spandicipaicer{
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    text-indent: 40px;
+    line-height: 30px;
+    transform: translate(-10px,0px);
+    color: orange;
+    background: url(../images/car.png) no-repeat 13px 7px;
+    border: 1px solid rgb(192, 188, 188);
+    border-left: none;
+}
+#spandicipaicer:hover{
+    background: url(../images/cars.png) no-repeat 13px 7px;
+    background-color: orange;
+    /* color: white; */
+}
+/* --------------------------------- */
+#dicipaid{
+    width: 230px;
+    height: 330px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#dicipaid:hover{
+    border: 1px solid rgb(185, 183, 183);
+}
+#dicipaid>p:nth-of-type(1){
+    color: red;
+}
+#dicipaid>p{
+    font-size: 14px;
+    text-align: center;
+}
+#dicipaid>p>a{
+    text-decoration: none;
+    color: black;
+}
+#dicipaid>p>a:hover{
+    color: red;
+}
+#spandicipaidyi{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    text-indent: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: url(../images/heart.png) no-repeat 10px 10px;
+    border: 1px solid rgb(167, 165, 165);
+}
+#spandicipaidyi:hover{
+    background: url(../images/heart_h.png) no-repeat 10px 10px;
+}
+#spandicipaider{
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    text-indent: 40px;
+    line-height: 30px;
+    transform: translate(-10px,0px);
+    color: orange;
+    background: url(../images/car.png) no-repeat 13px 7px;
+    border: 1px solid rgb(192, 188, 188);
+    border-left: none;
+}
+#spandicipaider:hover{
+    background: url(../images/cars.png) no-repeat 13px 7px;
+    background-color: orange;
+    /* color: white; */
+}
+/* -------------------------第五排商品------------------------------------------ */
+#dicpipai{
+    width: 950px;
+    height: 350px;
+    margin-left: 600px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+#dicpipaia{
+    width: 230px;
+    height: 330px;
+    float: left;
+    margin-top: 20px;
+}
+#dicpipaia:hover{
+    border: 1px solid rgb(185, 183, 183);
+}
+#dicpipaia>p:nth-of-type(1){
+    color: red;
+}
+#dicpipaia>p{
+    font-size: 14px;
+    text-align: center;
+}
+#dicpipaia>p>a{
+    text-decoration: none;
+    color: black;
+}
+#dicpipaia>p>a:hover{
+    color: red;
+}
+#spandicpipaiayi{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    text-indent: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: url(../images/heart.png) no-repeat 10px 10px;
+    border: 1px solid rgb(167, 165, 165);
+}
+#spandicpipaiayi:hover{
+    background: url(../images/heart_h.png) no-repeat 10px 10px;
+}
+#spandicpipaiaer{
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    text-indent: 40px;
+    line-height: 30px;
+    transform: translate(-10px,0px);
+    color: orange;
+    background: url(../images/car.png) no-repeat 13px 7px;
+    border: 1px solid rgb(192, 188, 188);
+    border-left: none;
+}
+#spandicpipaiaer:hover{
+    background: url(../images/cars.png) no-repeat 13px 7px;
+    background-color: orange;
+    /* color: white; */
+}
+/* ------------------------------------------- */
+#dicpipaib{
+    width: 230px;
+    height: 330px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#dicpipaib:hover{
+    border: 1px solid rgb(185, 183, 183);
+}
+#dicpipaib>p:nth-of-type(1){
+    color: red;
+}
+#dicpipaib>p{
+    font-size: 14px;
+    text-align: center;
+}
+#dicpipaib>p>a{
+    text-decoration: none;
+    color: black;
+}
+#dicpipaib>p>a:hover{
+    color: red;
+}
+#spandicpipaibyi{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    text-indent: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: url(../images/heart.png) no-repeat 10px 10px;
+    border: 1px solid rgb(167, 165, 165);
+}
+#spandicpipaibyi:hover{
+    background: url(../images/heart_h.png) no-repeat 10px 10px;
+}
+#spandicpipaiber{
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    text-indent: 40px;
+    line-height: 30px;
+    transform: translate(-10px,0px);
+    color: orange;
+    background: url(../images/car.png) no-repeat 13px 7px;
+    border: 1px solid rgb(192, 188, 188);
+    border-left: none;
+}
+#spandicpipaiber:hover{
+    background: url(../images/cars.png) no-repeat 13px 7px;
+    background-color: orange;
+    /* color: white; */
+}
+/* ----------------------------------------- */
+#dicpipaic{
+    width: 230px;
+    height: 330px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#dicpipaic:hover{
+    border: 1px solid rgb(185, 183, 183);
+}
+#dicpipaic>p:nth-of-type(1){
+    color: red;
+}
+#dicpipaic>p{
+    font-size: 14px;
+    text-align: center;
+}
+#dicpipaic>p>a{
+    text-decoration: none;
+    color: black;
+}
+#dicpipaic>p>a:hover{
+    color: red;
+}
+#spandicpipaicyi{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    text-indent: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: url(../images/heart.png) no-repeat 10px 10px;
+    border: 1px solid rgb(167, 165, 165);
+}
+#spandicpipaicyi:hover{
+    background: url(../images/heart_h.png) no-repeat 10px 10px;
+}
+#spandicpipaicer{
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    text-indent: 40px;
+    line-height: 30px;
+    transform: translate(-10px,0px);
+    color: orange;
+    background: url(../images/car.png) no-repeat 13px 7px;
+    border: 1px solid rgb(192, 188, 188);
+    border-left: none;
+}
+#spandicpipaicer:hover{
+    background: url(../images/cars.png) no-repeat 13px 7px;
+    background-color: orange;
+    /* color: white; */
+}
+/* --------------------------------- */
+#dicpipaid{
+    width: 230px;
+    height: 330px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#dicpipaid:hover{
+    border: 1px solid rgb(185, 183, 183);
+}
+#dicpipaid>p:nth-of-type(1){
+    color: red;
+}
+#dicpipaid>p{
+    font-size: 14px;
+    text-align: center;
+}
+#dicpipaid>p>a{
+    text-decoration: none;
+    color: black;
+}
+#dicpipaid>p>a:hover{
+    color: red;
+}
+#spandicpipaidyi{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    text-indent: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: url(../images/heart.png) no-repeat 10px 10px;
+    border: 1px solid rgb(167, 165, 165);
+}
+#spandicpipaidyi:hover{
+    background: url(../images/heart_h.png) no-repeat 10px 10px;
+}
+#spandicpipaider{
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    text-indent: 40px;
+    line-height: 30px;
+    transform: translate(-10px,0px);
+    color: orange;
+    background: url(../images/car.png) no-repeat 13px 7px;
+    border: 1px solid rgb(192, 188, 188);
+    border-left: none;
+}
+#spandicpipaider:hover{
+    background: url(../images/cars.png) no-repeat 13px 7px;
+    background-color: orange;
+    /* color: white; */
+}
+/* --------------------分页------------------------ */
+#fenye{
+    width: 500px;
+    height: 60px;
+    text-align: center;
+    /* border: 1px solid black; */
+    margin-left: 1030px;
+    margin-top: 50px;
+}
+#fenye>span{
+    margin-left: 10px;
+}
+#fenyea{
+    display: inline-block;
+    width: 70px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    border: 1px solid rgb(165, 161, 161);
+}
+#fenyea:hover{
+    background-color: #a5a4a4;
+}
+#fenyeb{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    background-color: orange;
+    border: 1px solid rgb(165, 161, 161);
+    color: white;
+}
+
+#fenyec{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    line-height: 40px;
+    border: 1px solid rgb(165, 161, 161);
+}
+#fenyec:hover{
+    background-color: orange;
+    color: white;
+}
+#fenyed{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    border: 1px solid rgb(165, 161, 161);
+}
+#fenyed:hover{
+    background-color: orange;
+    color: white;
+}
+#fenyee{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+#fenyef{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    line-height: 40px;
+    border: 1px solid rgb(165, 161, 161);
+}
+#fenyef:hover{
+    background-color: orange;
+    color: white;
+}
+#fenyeg{
+    display: inline-block;
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+    line-height: 40px;
+    border: 1px solid rgb(165, 161, 161);
+}
+#fenyeg:hover{
+    background-color: #a5a4a4;
+}
+/* ------------底部------------------------------ */
+#footyi{
+    width: 200px;
+    height: 120px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 500px;
+    /* border: 1px solid black; */
+}
+#footyia{
+    width: 62px;
+    height: 62px;
+    margin-left: 70px;
+}
+#footyi>p:nth-of-type(1){
+    font-size: 20px;
+    height: 30px;
+}
+#footyi>p:nth-of-type(2){
+    font-size: 14px;
+    height: 20px;
+}
+#footyia>img{
+    transition: all 1s;
+}
+#footyia>img:hover{
+    transform:rotateZ(720deg) scale(1.2);
+}
+#footer{
+    width: 200px;
+    height: 120px;
+    text-align: center;
+    margin-top: -120px;
+    margin-left: 750px;
+    /* border: 1px solid black; */
+}
+#footera{
+    width: 62px;
+    height: 62px;
+    margin-left: 70px;
+}
+#footer>p:nth-of-type(1){
+    font-size: 20px;
+    height: 30px;
+}
+#footer>p:nth-of-type(2){
+    font-size: 14px;
+    height: 20px;
+}
+#footera>img{
+    transition: all 1s;
+}
+#footera>img:hover{
+    transform:rotateZ(720deg) scale(1.2);
+}
+/* ------------------------ */
+#footsan{
+    width: 200px;
+    height: 120px;
+    text-align: center;
+    margin-top: -120px;
+    margin-left: 1000px;
+    /* border: 1px solid black; */
+}
+#footsana{
+    width: 62px;
+    height: 62px;
+    margin-left: 70px;
+}
+#footsan>p:nth-of-type(1){
+    font-size: 20px;
+    height: 30px;
+}
+#footsan>p:nth-of-type(2){
+    font-size: 14px;
+    height: 20px;
+}
+#footsana>img{
+    transition: all 1s;
+}
+#footsana>img:hover{
+    transform:rotateZ(720deg) scale(1.2);
+}
+/* -------------------------- */
+#footsi{
+    width: 200px;
+    height: 120px;
+    text-align: center;
+    margin-top: -120px;
+    margin-left: 1250px;
+    /* border: 1px solid black; */
+}
+#footsia{
+    width: 62px;
+    height: 62px;
+    margin-left: 70px;
+}
+#footsi>p:nth-of-type(1){
+    font-size: 20px;
+    height: 30px;
+}
+#footsi>p:nth-of-type(2){
+    font-size: 14px;
+    height: 20px;
+}
+#footsia>img{
+    transition: all 1s;
+}
+#footsia>img:hover{
+    transform:rotateZ(720deg) scale(1.2);
+}
+/* ----------------------------------------- */
+#footwu{
+    width: 1200px;
+    height: 250px;
+    /* border: 1px solid black; */
+    border-bottom: 1px solid rgb(194, 190, 190);
+    margin-left: 400px;
+    margin-top: 30px;
+    font-size: 13px;
+}
+#footwu ul{
+    width: 150px;
+    height: 250px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#footwu>ul>li>a{
+    text-decoration: none;
+    color: black;
+    
+}
+#footwu>ul>li>a:hover{
+    color: red;
+}
+#footwua>li:nth-of-type(1){
+    height: 30px;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+#footwu li{
+    margin-top: 10px;
+}
+#footwub>li:nth-of-type(1){
+    height: 30px;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+#footwuc>li:nth-of-type(1){
+    height: 30px;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+#footwud>li:nth-of-type(1){
+    height: 30px;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+#footwue>li:nth-of-type(1){
+    height: 30px;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+/* ------------------------------- */
+#footwuf{
+    transform: translate(0px,35px);
+}
+#footwuf div{
+    float: left;
+}
+#footwufer>p{
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 30px;
+
+}
+#footwufer>p:nth-of-type(4){
+    font-size: 20px;
+    color: red;
+}
+#footliu{
+    margin-top: 20px;
+    font-size: 13px;
+    text-align: center;
+}
+#footqi{
+    text-align: center;
+}
+#footqi>img{
+    width: 100px;
+    height: 35px;
+    margin: 20px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
